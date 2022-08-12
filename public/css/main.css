@@ -4,7 +4,13 @@ body {
   height: 100%;
 }
 
+.proyectos .row {
+  margin-bottom: 2px;
+}
 
+.proyectos .row .col {
+padding:0 2px 0 2px;
+}
 
 @media (max-width: 1367px) {
 
