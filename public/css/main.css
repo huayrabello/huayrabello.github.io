@@ -4,23 +4,31 @@ body {
   height: 100%;
 }
 
-.max850 {
-  max-width: 850px;
-}
 
-@media (max-width: 1366px) {
-  #carouselhuay {
+
+@media (max-width: 1367px) {
+
+  .max-image-width {
     max-width: 850px;
   }
+
   .carousel-item img.fixh {
     max-height: 567px;
     }
+
 }
 
-@media (min-width:  1366px) {
-  #carouselhuay {
-    max-width: 1024px;
+
+@media (min-width:  1368px) {
+
+  .max-image-width {
+    max-width: 1000px;
   }
+
+   .carousel-item img.fixh {
+    max-height: 667px;
+    }
+
 }
 
 
