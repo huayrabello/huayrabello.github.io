@@ -8,18 +8,28 @@ body {
   max-width: 850px;
 }
 
-#carouselhuay {
-  max-width: 850px;
+@media (max-width: 1366px) {
+  #carouselhuay {
+    max-width: 850px;
+  }
+  .carousel-item img.fixh {
+    max-height: 567px;
+    }
 }
+
+@media (min-width:  1366px) {
+  #carouselhuay {
+    max-width: 1024px;
+  }
+}
+
 
 .carousel-item {
   width: auto;
 }
 
 
-.carousel-item img.fixh {
-  max-height: 567px;
-  }
+
   
 .fixw-744 {
   max-width: 744px;
