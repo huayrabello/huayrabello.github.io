@@ -1,0 +1,1 @@
+sass --watch ./scss/custom.scss ./public/css/custom-boostrap.css
