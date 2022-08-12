@@ -1,0 +1,23 @@
+#carouselhuay {
+    max-width: 850px;
+  }
+
+  .carousel-item {
+  width:auto;
+  }
+
+  .carousel-item img.fixh {
+    max-height: 567px;
+    height: 567px;
+    max-width:850px;
+    object-fit: cover;
+    
+}
+
+  html, body {
+    height: 100%;
+  }
+  
+.max850{
+    max-width: 850px;
+}
