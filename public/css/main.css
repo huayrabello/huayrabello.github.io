@@ -4,14 +4,13 @@ body {
   height: 100%;
 }
 
- .gx-1 {
-    --bs-gutter-x: 0.15rem;
+.gx-1 {
+  --bs-gutter-x: 0.15rem;
 }
 
 .gy-1 {
-  --bs-gutter-y:  0.15rem;
+--bs-gutter-y:  0.15rem;
 }
-
 
 
 @media (max-width: 1367px) {
@@ -45,7 +44,7 @@ body {
 
   
 .img-proyects {
- width:400px;
+ max-width:400px;
 }
 
 
