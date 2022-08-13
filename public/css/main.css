@@ -5,11 +5,11 @@ body {
 }
 
  .gx-1 {
-    --bs-gutter-x: 0.10rem;
+    --bs-gutter-x: 0.15rem;
 }
 
 .gy-1 {
-  --bs-gutter-y:  0.10rem;
+  --bs-gutter-y:  0.15rem;
 }
 
 
@@ -45,7 +45,7 @@ body {
 
   
 .img-proyects {
- max-width:350px;
+ width:400px;
 }
 
 
