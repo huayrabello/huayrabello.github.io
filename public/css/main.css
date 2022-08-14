@@ -4,6 +4,10 @@ body {
   height: 100%;
 }
 
+.navbar-nav .nav-item:hover .nav-link {
+  color: white;
+}
+
 .gx-1 {
   --bs-gutter-x: 0.15rem;
 }
