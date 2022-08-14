@@ -19,20 +19,13 @@ body {
 
 @media (max-width: 1367px) {
 
-  .max-image-width {
-    max-width: 850px;
-  }
-
 
 }
 
 
 @media (min-width:  1368px) {
 
-  .max-image-width {
-    max-width: 1000px;
-  }
-
+ 
 }
 
 .carousel-item {
