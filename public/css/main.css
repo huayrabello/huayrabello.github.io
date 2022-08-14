@@ -23,9 +23,6 @@ body {
     max-width: 850px;
   }
 
-  .carousel-item img.fixh {
-    max-height: 567px;
-    }
 
 }
 
@@ -35,10 +32,6 @@ body {
   .max-image-width {
     max-width: 1000px;
   }
-
-   .carousel-item img.fixh {
-    max-height: 667px;
-    }
 
 }
 
