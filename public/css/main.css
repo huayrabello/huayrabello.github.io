@@ -26,14 +26,6 @@ body {
 
 }
 
-@media only screen and (min-width:0px)    {
-
-  .max-image-width {
-    max-width:400px;
-  }
-
-}
-
 
 @media (min-width:  1368px) {
 
