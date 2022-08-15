@@ -3,7 +3,7 @@
 window.addEventListener("load", (e) => {
     var myCarousel = document.getElementById("carouselhuay")
     var carousel = new bootstrap.Carousel(myCarousel, {
-        interval: 4000,
+        interval: 2000,
         wrap: true,
         touch: true,
         pause: 'hover',
