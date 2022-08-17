@@ -5,10 +5,6 @@ body {
   background-color: black;
 }
 
-.bio {
-  background-color: white !important;
-}
-
 .navbar-nav .nav-item:hover .nav-link {
   color: white;
 }
@@ -22,20 +18,20 @@ body {
 }
 
 
-@media (max-width: 1367px) {
+@media (max-width:850px) {
 
-  .max-image-width {
-    max-width: 850px;
+  #carouselProyectos .max-image-width {
+    max-width: 375px;
   }
 
 
 }
 
 
-@media (max-width:850px) {
+@media (max-width: 1367px) {
 
   .max-image-width {
-    max-width: 360px;
+    max-width: 850px;
   }
 
 

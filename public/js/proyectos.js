@@ -1,7 +1,7 @@
 
 window.addEventListener("load", (e) => {
 
-    var myCarousel = document.getElementById("carouselhuay")
+    var myCarousel = document.getElementById("carouselProyectos")
     var carousel = new bootstrap.Carousel(myCarousel, {
         interval: 2000,
         wrap: true,
