@@ -12,8 +12,11 @@ window.addEventListener("load", (e) => {
 
     carousel.cycle();
 
-    myCarousel.addEventListener("click", () => {
-        carousel.next();
+    myCarousel.addEventListener("click", (e) => {
+        let halfCarouselWidth = myCarousel.clientWidth / 2
+        console.log(halfCarouselWidth + " - " + e.offsetX)
+        if (e.offsetX < halfCarouselWidth) carousel.prev();
+        else carousel.next()
     })
 
 

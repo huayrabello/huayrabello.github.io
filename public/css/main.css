@@ -5,6 +5,10 @@ body {
   background-color: black;
 }
 
+.bio {
+  background-color: white !important;
+}
+
 .navbar-nav .nav-item:hover .nav-link {
   color: white;
 }
@@ -22,6 +26,16 @@ body {
 
   .max-image-width {
     max-width: 850px;
+  }
+
+
+}
+
+
+@media (max-width:850px) {
+
+  .max-image-width {
+    max-width: 360px;
   }
 
 
