@@ -10,3 +10,4 @@ PROXIMAS:
 
 - CLICKEAR EN CORRUSEL DEL HOME VA AL PROYECTO CORRESPONDIENTE ( IGUAL QUE Leer mas...) , pero esta parte de leer mas tambien deberia ir cambiando con el carrusel cuando sean varios proyectos?
 - Explicar a huay como manejar los espacios entre objetos, titulos, parrafos.. asi puede hacer ajustes finos
+- Sumar la sección Audiovisual.
