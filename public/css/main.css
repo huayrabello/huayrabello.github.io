@@ -53,9 +53,13 @@ body {
   border-top: rgb(211, 206, 206) solid 1px;
 }
 
-@media (min-width:  750px) {
+@media (min-width:  991px) {
 .video-texto {
   height: 371px;
   overflow-y:scroll;
 }
+}
+
+.video-texto p {
+  text-align: justify;
 }
