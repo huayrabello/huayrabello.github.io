@@ -1,20 +1,11 @@
 
-html,
 body {
-  height: 100%;
-  background-color: black;
+  padding-top: 8rem;
+  padding-bottom: 4rem;
 }
 
 .navbar-nav .nav-item:hover .nav-link {
-  color: white;
-}
-
-.gx-1 {
-  --bs-gutter-x: 0.15rem;
-}
-
-.gy-1 {
---bs-gutter-y:  0.15rem;
+  color: black;
 }
 
 
@@ -54,3 +45,17 @@ body {
   height: 10%;
 }
 
+.navbar {
+  border-bottom: rgb(211, 206, 206) solid 1px;
+}
+
+.bottom {
+  border-top: rgb(211, 206, 206) solid 1px;
+}
+
+@media (min-width:  750px) {
+.video-texto {
+  height: 371px;
+  overflow-y:scroll;
+}
+}
