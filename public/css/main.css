@@ -4,6 +4,12 @@ body {
   padding-bottom: 4rem;
 }
 
+
+p {
+  text-align: justify;
+}
+
+
 .navbar-nav .nav-item:hover .nav-link {
   color: black;
 }
@@ -58,8 +64,4 @@ body {
   height: 371px;
   overflow-y:scroll;
 }
-}
-
-.video-texto p {
-  text-align: justify;
 }
