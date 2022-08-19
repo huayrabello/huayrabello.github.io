@@ -11,5 +11,6 @@ PROXIMAS:
 - CLICKEAR EN CORRUSEL DEL HOME VA AL PROYECTO CORRESPONDIENTE ( IGUAL QUE Leer mas...) , pero esta parte de leer mas tambien deberia ir cambiando con el carrusel cuando sean varios proyectos?
 - Explicar a huay como manejar los espacios entre objetos, titulos, parrafos.. asi puede hacer ajustes finos
 - Igualar mismo estilo para cada sección: Dar espacio en los margenes, airear, que lo más importante sea la fotografía. Definir una misma justificación para todas las secciones (fluid o no) mismo paddin y mismo margin. Mismo tamaño de letra para títulos y textos y alinear párrafos que no abarquen tanto a lo ancho.
-- Organizar sección Audiovisual: quitar línea negra que esta abajo de todo. Responsive
-- Organizar el Footer igual para todas las paginas: que incluya los dos íconos que ya estan y mi nombre debajo. Quizás puede estar demarcado por un línea horizontal arriba.
+- Organizar sección Audiovisual: En la barra de Menú incorporar menú desplegable e incluir Vernos Florecer. Quitar línea negra que esta abajo de todo. Responsive
+- Organizar el Footer igual para todas las paginas:
+  Huayra Bello | Fotógrafa | íconos (Ig, lb, correo). Quizás puede estar demarcado por un línea horizontal arriba.
