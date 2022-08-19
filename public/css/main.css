@@ -55,9 +55,6 @@ p {
   border-bottom: rgb(211, 206, 206) solid 1px;
 }
 
-.bottom {
-  border-top: rgb(211, 206, 206) solid 1px;
-}
 
 @media (min-width:  991px) {
 .video-texto {
