@@ -38,7 +38,7 @@ window.addEventListener("load", (e) => {
 
     var divmodalbody = document.getElementById('modalbody')
 
-    divmodal.addEventListener("click", () => { myModal.hide() })
+    //divmodal.addEventListener("click", () => { myModal.hide() })
 
     divmodalbody.addEventListener("click", (e) => { e.stopPropagation() })
 
