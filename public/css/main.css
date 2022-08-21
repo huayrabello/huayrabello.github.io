@@ -66,3 +66,12 @@ p {
   overflow-y:scroll;
 }
 }
+
+
+.carousel-control-prev {
+margin-right:-0.5rem;
+}
+
+.carousel-control-next {
+  margin-left:-2rem;
+}
