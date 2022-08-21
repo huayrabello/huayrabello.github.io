@@ -67,19 +67,11 @@ p {
 }
 }
 
-@media (max-width:500px) {
 
-  #carousel_next, #carousel_prev {
-    font-size:2rem;
-  }
-
-}
-
-@media (min-width:600px) {
-  #carousel_next, #carousel_prev {
+ #carousel_next, #carousel_prev {
     font-size:6rem;
   }
-}
+
 
 #carousel_next, #carousel_prev {
 color:#1f1d1d;
