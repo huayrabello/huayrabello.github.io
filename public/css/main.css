@@ -67,11 +67,26 @@ p {
 }
 }
 
+@media (max-width:500px) {
 
-.carousel-control-prev {
-margin-right:-0.5rem;
+  #carousel_next, #carousel_prev {
+    font-size:2rem;
+  }
+
 }
 
-.carousel-control-next {
-  margin-left:-2rem;
+@media (min-width:600px) {
+  #carousel_next, #carousel_prev {
+    font-size:6rem;
+  }
 }
+
+#carousel_next, #carousel_prev {
+color:#1f1d1d;
+}
+
+
+#carousel_next:hover, #carousel_prev:hover {
+  color:#554f4f;
+}
+
