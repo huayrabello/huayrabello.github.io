@@ -12,4 +12,6 @@ PROXIMAS:
 - Explicar a huay como manejar los espacios entre objetos, titulos, parrafos.. asi puede hacer ajustes finos
 - Igualar mismo estilo para cada sección: Dar espacio en los margenes, airear, que lo más importante sea la fotografía. Definir una misma justificación para todas las secciones (fluid o no) mismo paddin y mismo margin. Mismo tamaño de letra para títulos y textos y alinear párrafos que no abarquen tanto a lo ancho.
 - Organizar sección Audiovisual: quitar línea negra que esta abajo de todo. Responsive
+
 - Organizar el Footer igual para todas las paginas: que incluya los dos íconos que ya estan y mi nombre debajo. Quizás puede estar demarcado por un línea horizontal arriba.
+- En la sección del proyecto del fuego: Para el carrusel creo que es mejor agregarle flechas laterales para que la gente tenga una opción conocida de pasar las diapositivas. Si se puede también agregar la opción de mover las dipositivas con las flechas del teclado, además de las opciones ya disponibles. También quitar la opción de hacer clip por fuera para salir, dejar solo la X para salir
