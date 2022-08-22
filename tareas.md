@@ -6,3 +6,4 @@
 - Home: Huay tiene que seleccionar una foto de portada para presentar cada sección.
 - Ver links referencias.md para crear la página principal de proyectos personales.
 - Colocar la opción de menú desplegable para la sección de Colaboraciones y Audiovisual.
+- Colaboraciones: el primer proyecto se llama "Re-Existentes" Mirá en links referencia.md para ver la idea. Lo que imaiginé es colocar diapositivas de texto entre medio de las fotos, entonces el formato de carrusel de las referencias creo que puede servir. En colaboraciones.md coloqué los textos en orden de aparición.
