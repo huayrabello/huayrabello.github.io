@@ -57,8 +57,17 @@ p {
 
 .contact_bottom{
   border-top: rgb(211, 206, 206) solid 1px;
+  background-color: rgb(246, 246, 246);
+ 
 }
 
+.contact_bottom a {
+  text-decoration: none;
+  vertical-align: middle;
+}
+.contact_bottom span {
+  vertical-align: middle;
+}
 
 @media (min-width:  991px) {
 .video-texto {
