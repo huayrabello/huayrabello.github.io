@@ -1,62 +1,36 @@
 
+/* ESTILOS GENERALES  */
 body {
   padding-top: 8rem;
   padding-bottom: 4rem;
 }
-
 
 p {
   text-align: justify;
 }
 
 
-.navbar-nav .nav-item:hover .nav-link {
-  color: black;
-}
-
+/*ESTILOS PARA RESPONSIVE */
 
 @media (max-width:850px) {
-
   #carouselProyectos .max-image-width {
     max-width: 375px;
   }
-
-
 }
 
 
 @media (max-width: 1367px) {
-
   .max-image-width {
     max-width: 850px;
   }
 
-
 }
 
-
 @media (min-width:  1368px) {
-
   .max-image-width {
     max-width: 1000px;
   }
 
-}
-
-.carousel-item {
-  width: auto;
-}
-
-.vertical-space {
-  height: 10%;
-}
-
-.navbar {
-  border-bottom: rgb(211, 206, 206) solid 1px;
-}
-
-.contact_bottom{
-  border-top: rgb(211, 206, 206) solid 1px;
 }
 
 
@@ -67,6 +41,21 @@ p {
 }
 }
 
+/* MENU PRINCIPAL TOP NAVBAR */
+
+.navbar-nav .nav-item:hover .nav-link {
+  color: black;
+}
+
+.navbar {
+  border-bottom: rgb(211, 206, 206) solid 1px;
+}
+
+
+/* CARUSEL  */
+.carousel-item {
+  width: auto;
+}
 
  #carousel_next, #carousel_prev {
     font-size:3rem;
@@ -82,3 +71,30 @@ color:#1f1d1d;
   color:#554f4f;
 }
 
+/* PIE CONTACTO */
+.contact_bottom{
+  border-top: rgb(211, 206, 206) solid 1px;
+  background-color: rgb(246, 246, 246);
+ 
+}
+
+.contact_bottom a {
+  text-decoration: none;
+  vertical-align: middle;
+  color:black;
+   font-size:1.1rem
+}
+
+.contact_bottom a:visited{
+  text-decoration: none;
+  color:black;
+}
+
+.contact_bottom span {
+  vertical-align: middle;
+  font-size:1.1rem
+}
+
+.contact_bottom .separador {
+  margin:0 0.2rem 0 0.2rem;
+}
