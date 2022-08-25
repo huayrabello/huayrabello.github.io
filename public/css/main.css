@@ -73,16 +73,16 @@ color:#1f1d1d;
 
 /* PIE CONTACTO */
 .contact_bottom{
-  border-top: rgb(211, 206, 206) solid 1px;
+  border-top: rgb(211, 206, 206) solid 0px;
   background-color: rgb(246, 246, 246);
+  padding-top:0.2rem;
+  padding-bottom:0.2rem;
  
 }
 
 .contact_bottom a {
   text-decoration: none;
-  vertical-align: middle;
   color:black;
-   font-size:1.1rem
 }
 
 .contact_bottom a:visited{
@@ -91,8 +91,6 @@ color:#1f1d1d;
 }
 
 .contact_bottom span {
-  vertical-align: middle;
-  font-size:1.1rem
 }
 
 .contact_bottom .separador {
