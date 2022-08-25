@@ -109,12 +109,18 @@ width: 1307px;
   margin-right: 5px;
   height: 630px ;
   background-color: rgb(229, 230, 233);
-}
- .txt p{
   width: 350px;
   padding:20px;
-  margin-top: 108px;
+}
+
+ .txt p{
+  margin-top: 8rem;
+
   }
+
+.portada p {
+  margin-top: 1rem;
+}
 
 .swiper-slide img {
 height: 630px;

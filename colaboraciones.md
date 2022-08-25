@@ -1,6 +1,6 @@
 Diapositiva 1
 
-**Re-Existentes podcast – Identidades plurales resistentes y resilientes durante la pandemia**
+## **Re-Existentes podcast – Identidades plurales resistentes y resilientes durante la pandemia**
 
 En vísperas de la navidad del 2021, la periodista Florencia Goldsman me invitó a formar parte de este proyecto de investigación visual y sonora. Juntas viajamos a Chichicastenango, Santiago Atitlán y algunos barrios de la ciudad de Guatemala, para conversar y retratar a personas cuyas voces despliegan fragmentos del enorme abanico de las sexualidades disidentes, plurales y diversas.
 
@@ -8,6 +8,7 @@ Frente a un contexto opresivo para la expresión de la sexualidad y el género, 
 
 Escucha el podcast AQUÍ. (colacar ícono de podcast, creo que es un microfonito o un parlante)
 Link: https://www.no-ficcion.com/project/re-existentes-podcast-ep01
+
 Diseño portada: Mapa Herrera
 
 Diapositiva 2
