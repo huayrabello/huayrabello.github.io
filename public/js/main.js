@@ -3,15 +3,17 @@
 window.addEventListener("load", (e) => {
     var myCarousel = document.getElementById("carouselhuay")
 
-    var carousel = new bootstrap.Carousel(myCarousel, {
-        interval: 2000,
-        wrap: true,
-        touch: true,
-        pause: 'hover',
-        ride: 'carousel'
-    })
+    // var carousel = new bootstrap.Carousel(myCarousel,
+    //     //     {
+    //     //     interval: 2000,
+    //     //     wrap: true,
+    //     //     touch: true,
+    //     //     pause: 'hover',
+    //     //     ride: 'carousel'
+    //     // }
+    // )
 
-    carousel.cycle();
+    // carousel.cycle();
 
     // myCarousel.addEventListener("click", (e) => {
     //     let halfCarouselWidth = myCarousel.clientWidth / 2

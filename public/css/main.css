@@ -1,7 +1,7 @@
 
 /* ESTILOS GENERALES  */
 body {
-  padding-top: 8rem;
+  padding-top: 6rem;
   padding-bottom: 4rem;
 }
 
@@ -73,16 +73,16 @@ color:#1f1d1d;
 
 /* PIE CONTACTO */
 .contact_bottom{
-  border-top: rgb(211, 206, 206) solid 1px;
+  border-top: rgb(211, 206, 206) solid 0px;
   background-color: rgb(246, 246, 246);
+  padding-top:0.2rem;
+  padding-bottom:0.2rem;
  
 }
 
 .contact_bottom a {
   text-decoration: none;
-  vertical-align: middle;
   color:black;
-   font-size:1.1rem
 }
 
 .contact_bottom a:visited{
@@ -91,10 +91,46 @@ color:#1f1d1d;
 }
 
 .contact_bottom span {
-  vertical-align: middle;
-  font-size:1.1rem
 }
 
 .contact_bottom .separador {
   margin:0 0.2rem 0 0.2rem;
 }
+
+
+/* Colaboraciones */
+
+.swiper {
+width: 1307px;
+
+}
+
+.txt {
+  margin-right: 5px;
+  height: 630px ;
+  background-color: rgb(229, 230, 233);
+}
+ .txt p{
+  width: 350px;
+  padding:20px;
+  margin-top: 108px;
+  }
+
+.swiper-slide img {
+height: 630px;
+display: block;
+object-fit: cover;
+}
+
+.swiper-slide.vertical {
+ flex-shrink: 100 !important;
+  /* width: 777px !important; */
+}
+
+.swiper-slide.onlyphoto {
+ flex-shrink: 100 !important;
+  /* width: 945px !important; */
+}
+
+
+
