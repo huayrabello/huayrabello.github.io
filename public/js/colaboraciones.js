@@ -1,31 +1,39 @@
 
 
+
+
+
 window.addEventListener("load", (e) => {
-    const swiper = new Swiper('.swiper', {
-        // Optional parameters
-        direction: 'horizontal',
-        loop: false,
-        rewind: true,
-        slidesPerView: 1,
-        freeMode: true,
-        spaceBetween: 10,
-        centeredSlides: true,
-        //effect: "coverflow",
-        // Navigation arrows
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
+    $('.inner_slider').slick({
+        dots: false,
+        infinite: true,
+        speed: 1000,
+        slidesToShow: 1,
+        centerMode: false,
+        variableWidth: true,
+        appendArrows: false,
+        appendDots: false,
+        centerMode: false,
+        draggable: true,
+        swipeToSlide: false
 
 
     });
 
-    swiper.on('slideChange', function () {
-        console.log('slide cambio');
+    //Carrusel
+    var prev = document.getElementById("slider_prev");
+    var next = document.getElementById("slider_next");
+
+    prev.addEventListener("click", (e) => {
+        $('.inner_slider').slick('slickPrev');
+
     })
 
-    swiper.on('slideChange', function () {
-        console.log('final');
+    next.addEventListener("click", (e) => {
+        $('.inner_slider').slick('slickNext');
     })
 
 })
+
+
+

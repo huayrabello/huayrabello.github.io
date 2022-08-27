@@ -12,6 +12,15 @@ p {
 
 /*ESTILOS PARA RESPONSIVE */
 
+@media (max-width:500px) {
+.default-instance img {
+  aspect-ratio: 1/2;
+   object-fit:cover;
+   object-position: -600px;
+  }
+}
+
+
 @media (max-width:850px) {
   #carouselProyectos .max-image-width {
     max-width: 375px;
@@ -21,14 +30,14 @@ p {
 
 @media (max-width: 1367px) {
   .max-image-width {
-    max-width: 850px;
+    max-width: 1000px;
   }
 
 }
 
 @media (min-width:  1368px) {
   .max-image-width {
-    max-width: 1000px;
+    max-width: 1100px;
   }
 
 }
@@ -51,8 +60,83 @@ p {
   border-bottom: rgb(211, 206, 206) solid 1px;
 }
 
+/* Proyectos */
+.proyecto-instance{
+  position: relative;
+  cursor:default;
+  text-align: center;
+}
 
-/* CARUSEL  */
+.proyecto-overlay {
+position:absolute;
+left:0;
+top:0;
+width:100%;
+height:100%;
+overflow: hidden;
+color:white;
+text-align: center;
+cursor: pointer;
+background-color: black;
+opacity: 0;
+filter:alpha(opacity=0);
+transition: opacity 1s;
+}
+
+.proyecto-instance:hover  .proyecto-overlay{
+  opacity: 70%;
+filter:alpha(opacity=70);
+}
+
+.proyecto-overlay h5{
+  margin-top:45%;
+  /* background: rgba(0,0,0,.6); */
+  padding:0.5rem;
+  opacity:100% ;
+filter:alpha(opacity=1);
+}
+
+
+.proyecto-img {
+  aspect-ratio: 1/1;
+  object-fit:cover
+ }
+
+ /* Proyecto individual */
+
+ .proyecto-instance-img {
+  cursor: pointer;
+ }
+
+ .default-instance{
+  position: relative;
+  cursor:default;
+  text-align: center;
+}
+
+ .default-overlay {
+  position:absolute;
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+  overflow: hidden;
+  color:white;
+  text-align: center;
+  cursor: pointer;
+  background-color: black;
+  opacity: 50%;
+  filter:alpha(opacity=50);
+  transition: opacity 1s;
+  }
+
+
+ .default-instance:hover  .default-overlay{
+  opacity: 0%;
+filter:alpha(opacity=0);
+}
+
+/* CARUSEL de proyecto  */
 .carousel-item {
   width: auto;
 }
@@ -97,46 +181,72 @@ color:#1f1d1d;
   margin:0 0.2rem 0 0.2rem;
 }
 
+/* Colaboraciones slider */
 
-/* Colaboraciones */
-
-.swiper {
-width: 1307px;
-
-}
-
-.txt {
-  margin-right: 5px;
-  height: 630px ;
-  background-color: rgb(229, 230, 233);
-  width: 350px;
-  padding:20px;
-}
-
- .txt p{
-  margin-top: 8rem;
-
+.colaboraciones_slider{
+  display: flex;
+  width: 100%;
+  align-items: center;
   }
-
-.portada p {
-  margin-top: 1rem;
-}
-
-.swiper-slide img {
-height: 630px;
-display: block;
-object-fit: cover;
-}
-
-.swiper-slide.vertical {
- flex-shrink: 100 !important;
-  /* width: 777px !important; */
-}
-
-.swiper-slide.onlyphoto {
- flex-shrink: 100 !important;
-  /* width: 945px !important; */
-}
-
-
-
+  #slider_next, #slider_prev {
+    font-size:3rem;
+    color:#1f1d1d;
+  }
+  
+  
+  #slider_next:hover, #slider_prev:hover {
+  color:#554f4f;
+  }
+  
+  .inner_slider{
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+    }
+  
+    .inner_slider::-webkit-scrollbar {
+      display: none;
+    }
+  
+    .firstslide {
+      transform: translate(0px);
+    }
+  
+  
+  .colaboraciones_slider .slide{
+  display: flex;
+  margin-right: 1.5rem;
+  }
+  
+  .colaboraciones_slider .slide img {
+    height: 630px;
+    display: block;
+    object-fit: cover;
+    margin-right: 0.1rem;
+    }
+    
+  
+    .colaboraciones_slider .txt {
+    height: 630px ;
+    background-color: rgb(246, 247, 252);
+    width: 350px;
+    padding-top:8rem;
+    padding-right:1.5rem;
+    padding-left:1.5rem;
+    margin-right: 0.1rem;
+  }
+  
+  .colaboraciones_slider  .txt p{
+    /* margin-top: 8rem; */
+  
+    }
+  
+    .colaboraciones_slider .portada  {
+      padding-top:1rem;
+     }
+    
+  
+     .colaboraciones_slider .portada p {
+   margin-top: 1rem;
+  }
+  
