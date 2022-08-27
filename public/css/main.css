@@ -225,6 +225,9 @@ color:#1f1d1d;
     margin-right: 0.1rem;
     }
     
+    .colaboraciones_slider .inner_slider {
+      cursor:grab;
+    }
   
     .colaboraciones_slider .txt {
     height: 630px ;
