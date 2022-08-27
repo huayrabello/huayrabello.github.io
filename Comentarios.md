@@ -1,0 +1,1 @@
+- se re agregaron las flechas en carrousel.. falta posicionarlas afuera de el.

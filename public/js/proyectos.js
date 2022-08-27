@@ -38,7 +38,20 @@ window.addEventListener("load", (e) => {
 
     var divmodalbody = document.getElementById('modalbody')
 
-    divmodal.addEventListener("click", () => { myModal.hide() })
+    //divmodal.addEventListener("click", () => { myModal.hide() })
 
     divmodalbody.addEventListener("click", (e) => { e.stopPropagation() })
+
+    //Carrusel
+    var carPrev = document.getElementById("carousel_prev")
+    var carNext = document.getElementById("carousel_next")
+
+    carPrev.addEventListener("click", (e) => {
+        carousel.prev();
+
+    })
+
+    carNext.addEventListener("click", (e) => {
+        carousel.next()
+    })
 })

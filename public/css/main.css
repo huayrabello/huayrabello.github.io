@@ -1,56 +1,142 @@
 
-html,
+/* ESTILOS GENERALES  */
 body {
-  height: 100%;
-  background-color: black;
+  padding-top: 6rem;
+  padding-bottom: 4rem;
 }
 
-.navbar-nav .nav-item:hover .nav-link {
-  color: white;
+p {
+  text-align: justify;
 }
 
-.gx-1 {
-  --bs-gutter-x: 0.15rem;
-}
 
-.gy-1 {
---bs-gutter-y:  0.15rem;
-}
-
+/*ESTILOS PARA RESPONSIVE */
 
 @media (max-width:850px) {
-
   #carouselProyectos .max-image-width {
     max-width: 375px;
   }
-
-
 }
 
 
 @media (max-width: 1367px) {
-
   .max-image-width {
     max-width: 850px;
   }
 
-
 }
 
-
 @media (min-width:  1368px) {
-
   .max-image-width {
     max-width: 1000px;
   }
 
 }
 
+
+@media (min-width:  991px) {
+.video-texto {
+  height: 371px;
+  overflow-y:scroll;
+}
+}
+
+/* MENU PRINCIPAL TOP NAVBAR */
+
+.navbar-nav .nav-item:hover .nav-link {
+  color: black;
+}
+
+.navbar {
+  border-bottom: rgb(211, 206, 206) solid 1px;
+}
+
+
+/* CARUSEL  */
 .carousel-item {
   width: auto;
 }
 
-.vertical-space {
-  height: 10%;
+ #carousel_next, #carousel_prev {
+    font-size:3rem;
+  }
+
+
+#carousel_next, #carousel_prev {
+color:#1f1d1d;
 }
+
+
+#carousel_next:hover, #carousel_prev:hover {
+  color:#554f4f;
+}
+
+/* PIE CONTACTO */
+.contact_bottom{
+  border-top: rgb(211, 206, 206) solid 0px;
+  background-color: rgb(246, 246, 246);
+  padding-top:0.2rem;
+  padding-bottom:0.2rem;
+ 
+}
+
+.contact_bottom a {
+  text-decoration: none;
+  color:black;
+}
+
+.contact_bottom a:visited{
+  text-decoration: none;
+  color:black;
+}
+
+.contact_bottom span {
+}
+
+.contact_bottom .separador {
+  margin:0 0.2rem 0 0.2rem;
+}
+
+
+/* Colaboraciones */
+
+.swiper {
+width: 1307px;
+
+}
+
+.txt {
+  margin-right: 5px;
+  height: 630px ;
+  background-color: rgb(229, 230, 233);
+  width: 350px;
+  padding:20px;
+}
+
+ .txt p{
+  margin-top: 8rem;
+
+  }
+
+.portada p {
+  margin-top: 1rem;
+}
+
+.swiper-slide img {
+height: 630px;
+display: block;
+object-fit: cover;
+}
+
+.swiper-slide.vertical {
+ flex-shrink: 100 !important;
+  /* width: 777px !important; */
+}
+
+.swiper-slide.onlyphoto {
+ flex-shrink: 100 !important;
+  /* width: 945px !important; */
+}
+
+
 
