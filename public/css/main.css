@@ -125,15 +125,21 @@ filter:alpha(opacity=1);
   text-align: center;
   cursor: pointer;
   background-color: black;
-  opacity: 50%;
-  filter:alpha(opacity=50);
+  opacity: 0%;
+  filter:alpha(opacity=0);
   transition: opacity 1s;
   }
 
 
+  .home-overlay {
+    opacity: 50%;
+    filter:alpha(opacity=50);
+    }
+  
+
  .default-instance:hover  .default-overlay{
-  opacity: 0%;
-filter:alpha(opacity=0);
+  opacity: 50%;
+filter:alpha(opacity=50);
 }
 
 /* CARUSEL de proyecto  */
