@@ -15,9 +15,8 @@ window.addEventListener("load", (e) => {
         appendDots: false,
         centerMode: false,
         draggable: true,
-        swipeToSlide: false
-
-
+        swipeToSlide: false,
+        responsive: true
     });
 
     //Carrusel
