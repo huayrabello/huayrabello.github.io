@@ -12,14 +12,6 @@ p {
 
 /*ESTILOS PARA RESPONSIVE */
 
-@media (max-width:500px) {
-.default-instance img {
-  aspect-ratio: 1/2;
-   object-fit:cover;
-   object-position: -600px;
-  }
-}
-
 
 @media (max-width:850px) {
   #carouselProyectos .max-image-width {
@@ -30,7 +22,7 @@ p {
 
 @media (max-width: 1367px) {
   .max-image-width {
-    max-width: 1000px;
+    max-width:850px;
   }
 
 }
