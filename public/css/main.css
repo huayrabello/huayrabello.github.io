@@ -219,9 +219,9 @@ color:#1f1d1d;
   }
   
   .colaboraciones_slider .slide img {
-    height: 630px;
+    height:500px;
     display: block;
-    object-fit: cover;
+    object-fit: contain;
     margin-right: 0.1rem;
     }
     
@@ -230,10 +230,10 @@ color:#1f1d1d;
     }
   
     .colaboraciones_slider .txt {
-    height: 630px ;
+    height:500px;
     background-color: rgb(246, 247, 252);
     width: 350px;
-    padding-top:8rem;
+    padding-top:6rem;
     padding-right:1.5rem;
     padding-left:1.5rem;
     margin-right: 0.1rem;
