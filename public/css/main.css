@@ -131,7 +131,7 @@ filter:alpha(opacity=1);
   }
 
 
- .default-instance:hover  .default-overlay{
+ .default-overlay:hover {
   opacity: 0%;
 filter:alpha(opacity=0);
 }
