@@ -257,7 +257,7 @@ color:#1f1d1d;
     .colaboraciones_slider .nomargin {  margin-bottom: 0px !important; margin-top: 0px !important;}
     .colaboraciones_slider .inner_slider { flex-direction: column; }
     .colaboraciones_slider .txt { width: 100%; padding:1rem 0.2rem 1rem 0.2rem;}
-    .colaboraciones_slider .slide img { width: 100%; height: auto;}
+    .colaboraciones_slider .slide img { width: 100%; height: auto; padding-bottom: 0.4rem;}
   }
 
 
