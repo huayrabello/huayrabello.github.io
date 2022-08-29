@@ -11,7 +11,14 @@ p {
 
 
 /*ESTILOS PARA RESPONSIVE */
-
+@media (max-width:500px) {
+  #carouselHome .default-instance img {
+    aspect-ratio: 1/2;
+     object-fit: cover;
+     
+    }
+  }
+  
 
 @media (max-width:850px) {
   #carouselProyectos .max-image-width {
@@ -212,14 +219,15 @@ color:#1f1d1d;
   
   .colaboraciones_slider .slide{
   display: flex;
-  margin-right: 1.5rem;
+  margin-right: 0.5rem;
+  background-color: rgb(246, 247, 252);
+ 
   }
   
   .colaboraciones_slider .slide img {
-    height:500px;
+    height:630px;
     display: block;
     object-fit: contain;
-    margin-right: 0.1rem;
     }
     
     .colaboraciones_slider .inner_slider {
@@ -227,15 +235,20 @@ color:#1f1d1d;
     }
   
     .colaboraciones_slider .txt {
-    height:500px;
-    background-color: rgb(246, 247, 252);
-    width: 350px;
-    padding-top:6rem;
+    width: 380px;
+    align-self: center !important;
+    height: 100% !important;
     padding-right:1.5rem;
     padding-left:1.5rem;
     margin-right: 0.1rem;
+
   }
   
+  @media (max-width:1367px) {
+    .colaboraciones_slider .slide img { height:500px;}
+    .colaboraciones_slider .txt { width: 420px; }
+  }
+
   .colaboraciones_slider  .txt p{
     /* margin-top: 8rem; */
   
