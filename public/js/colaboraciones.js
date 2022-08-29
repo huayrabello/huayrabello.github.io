@@ -1,10 +1,9 @@
 
 
-function addHorizontalSlider(mediaQuery) {
-
+function addHorizontalSlider(id, mediaQuery) {
 
     if (mediaQuery.matches) { // If media query matches
-        $('.inner_slider').slick({
+        $(id).slick({
             dots: false,
             infinite: true,
             speed: 1000,
@@ -25,16 +24,20 @@ function addHorizontalSlider(mediaQuery) {
         var next = document.getElementById("slider_next");
 
         prev.addEventListener("click", (e) => {
-            $('.inner_slider').slick('slickPrev');
+            $(id).slick('slickPrev');
 
         })
 
         next.addEventListener("click", (e) => {
-            $('.inner_slider').slick('slickNext');
+            $(id).slick('slickNext');
         })
     } else {
+        try {
+            $(id).slick('unslick');
+        } catch (error) {
+            console.log("no existe instancia de slick..,")
+        }
 
-        $('.inner_slider').slick('unslick');
     }
 }
 
@@ -42,8 +45,14 @@ function addHorizontalSlider(mediaQuery) {
 window.addEventListener("load", (e) => {
 
     const mediaQuery = window.matchMedia("(min-width: 992px)")
-    addHorizontalSlider(mediaQuery) // Call listener function at run time
-    mediaQuery.addEventListener("change", () => { addHorizontalSlider(mediaQuery); })
+
+    addHorizontalSlider("#reexistentes_slider", mediaQuery)
+
+    mediaQuery.addEventListener("change", () => {
+
+        addHorizontalSlider("#reexistentes_slider", mediaQuery);
+
+    })
 
 })
 
