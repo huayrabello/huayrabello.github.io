@@ -12,7 +12,7 @@ p {
 
 /*ESTILOS PARA RESPONSIVE */
 @media (max-width:500px) {
-  #carouselHome .default-instance img {
+  #carouselHome .home-instance img {
     aspect-ratio: 1/2;
      object-fit: cover;
      
