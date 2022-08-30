@@ -12,58 +12,26 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/bootstrap-icons.css" rel="stylesheet">
     <script src="js/bootstrap.bundle.min.js"></script>
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caveat&family=Libre+Baskerville&display=swap">
     <style>
-        body {
-            padding-top: 3.2rem;
-            padding-bottom: 0;
+        @media (max-width:600px) {
+            body {
+                padding-top: 0;
+                padding-bottom: 0;
+            }
+        }
+
+        @media (min-width:600px) {
+            body {
+                padding-top: 3rem;
+                padding-bottom: 0;
+            }
         }
     </style>
 </head>
 
 <body>
     <div class="container-fluid p-0 m-0">
-        <nav class=" navbar navbar-expand-lg text-black bg-white mb-0 p-1 p-sm-0 fixed-top">
-            <div class="container">
-                <div class="navbar-brand pt-1 pb-0 mt-0 mb-0">
-                    <a class=" navbar-brand fs-4 d-block" href="index.html">Huayra Bello</a>
-
-                </div>
-
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse pe-5 " id="navbarNavDropdown">
-                    <ul class="navbar-nav ms-auto ">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item ps-3">
-                            <a class="nav-link" href="proyectos.html">Proyectos personales</a>
-                        </li>
-                        <li class="nav-item ps-3">
-                            <a class="nav-link" href="audiovisual.html">Audiovisual</a>
-                        </li>
-
-                        <li class="nav-item dropdown ps-3">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Colaboraciones
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="re-existentes.html">Re-Existentes</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item  ps-3">
-                            <a class="nav-link" href="biocontacto.html">Bio/Contacto</a>
-                        </li>
-
-                    </ul>
-                </div>
-            </div>
-        </nav>
 
 
         <div id="carouselHome" class="carousel slide carousel-fade position-fixed" data-bs-pause="false"
@@ -123,9 +91,34 @@
         </a>
     </div>
 
+
+    <nav class="mainmenu bg-white text-black d-flex flex-column flex-lg-row fixed-top g-0">
+        <div class="mm-header">
+            <a class="navbar-brand d-inline ps-2" href="index.html">Huayra Bello</a>
+            <a href="index.html" class="d-inline float-end pe-2 d-lg-none"><i class="bi bi-x-lg"></i></a>
+        </div>
+        <ul class="d-flex flex-column flex-lg-row list-unstyled ms-lg-auto mb-0 pt-5 pt-lg-0">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="proyectos.html">Proyectos personales</a>
+            </li>
+            <li>
+                <a href="audiovisual.html">Audiovisual</a>
+            </li>
+            <li>
+                <a href="colaboraciones.html"> Colaboraciones </a>
+            </li>
+            <li>
+                <a href="biocontacto.html">Bio/Contacto</a>
+            </li>
+
+        </ul>
+    </nav>
+
+
     </div>
-
-
 </body>
 
 </html>

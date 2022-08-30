@@ -59,6 +59,49 @@ p {
   border-bottom: rgb(211, 206, 206) solid 1px;
 }
 
+.mainmenu {
+  font-size: 2rem;
+  font-family: 'Caveat', cursive;
+  width:100%
+}
+
+@media (max-width:992px) {
+  .mainmenu , .mainmenu ul {
+    height: 100vh;
+  }
+}
+
+@media (min-width:992px) {
+  .mainmenu ul li {
+    padding-top:0.5rem;
+    padding-right:1.5rem;
+    font-size: 1.5rem;
+  }
+}
+
+
+.mainmenu ul {
+  padding:0;
+}
+
+.mainmenu ul li {
+  text-align: center;
+}
+
+.mainmenu a {
+  text-align: center;
+  text-decoration: none;
+  color:rgb(45, 43, 43);
+}
+
+.mainmenu ul li a {
+  text-transform: uppercase;
+}
+
+.mainmenu a:hover {
+  color:rgb(132, 125, 125);
+}
+
 /* Proyectos */
 .proyecto-instance{
   position: relative;
@@ -98,7 +141,14 @@ filter:alpha(opacity=1);
 
 .proyecto-img {
   aspect-ratio: 1/1;
-  object-fit:cover
+  object-fit:cover;
+ }
+
+ .proyectos-personales .col a>h5{
+  text-align: center;
+  color:black;
+  text-decoration: none;
+  padding-top: 0.3rem;
  }
 
  /* Proyecto individual */
