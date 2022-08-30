@@ -1,7 +1,7 @@
 
 
 window.addEventListener("load", (e) => {
-    var myCarousel = document.getElementById("carouselhuay")
+    // var myCarousel = document.getElementById("carouselhuay")
 
     // var carousel = new bootstrap.Carousel(myCarousel,
     //     //     {
@@ -21,5 +21,14 @@ window.addEventListener("load", (e) => {
     //     if (e.offsetX < halfCarouselWidth) carousel.prev();
     //     else carousel.next()
     // })
+
+    const closemenu = document.getElementById("closemenu")
+    const menu = document.getElementById("mainmenu")
+
+    closemenu.addEventListener("click", () => {
+
+        menu.classList.add('d-none')
+    })
+
 
 })
