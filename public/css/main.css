@@ -1,23 +1,51 @@
+/* FUENTES */ 
+@font-face {
+  font-family: "Barlow";
+  src: url("fonts/BarlowSemiCondensed-Regular.ttf");
+}
+
+ @font-face {
+  font-family: "Barlow";
+  src: url("fonts/BarlowSemiCondensed-Italic.ttf");
+  font-style: italic;
+} 
+
+ /* @font-face {
+  font-family: "Barlow";
+  src: url("fonts/DejaVuSans-Light.ttf");
+  font-weight: lighter;
+} */
+
+@font-face {
+  font-family: "Hind";
+  src: url("fonts/Hind-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Macondo";
+  src: url("fonts/Macondo-Regular.ttf");
+}  
+
+
+
 
 /* ESTILOS GENERALES  */
 body {
   padding-top: 6rem;
   padding-bottom: 4rem;
+  font-family: Barlow;
 }
-
 
 
 p {
   text-align: justify;
 }
 
-
 /*ESTILOS PARA RESPONSIVE */
 @media (max-width:500px) {
   #carouselHome .home-instance img {
     aspect-ratio: 1/2;
-     object-fit: cover;
-     
+     object-fit: contain;
     }
   }
   
@@ -62,22 +90,35 @@ p {
 }
 
 .mainmenu {
-  font-size: 2rem;
-  font-family: 'Caveat', cursive;
-  width:100%
+  font-size: 1.4rem;
+  font-family: Barlow;
+  width:100%;
+  background-color: white;
+}
+
+.mm-header{
+  font-family: Hind;
 }
 
 @media (max-width:992px) {
   .mainmenu , .mainmenu ul {
     height: 100vh;
   }
+  .mainmenu ul li a {
+    text-transform: uppercase;
+  }
 }
 
 @media (min-width:992px) {
+  .mainmenu {
+  padding-left: 6rem;
+  padding-right: 6rem;
+  }
+
   .mainmenu ul li {
-    padding-top:0.5rem;
+    padding-top:0rem;
     padding-right:1.5rem;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
   }
 }
 
@@ -96,9 +137,7 @@ p {
   color:rgb(45, 43, 43);
 }
 
-.mainmenu ul li a {
-  text-transform: uppercase;
-}
+
 
 .mainmenu a:hover {
   color:rgb(132, 125, 125);
