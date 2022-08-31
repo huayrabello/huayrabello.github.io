@@ -27,8 +27,6 @@
 }  
 
 
-
-
 /* ESTILOS GENERALES  */
 body {
   padding-top: 6rem;
@@ -45,7 +43,7 @@ p {
 @media (max-width:500px) {
   #carouselHome .home-instance img {
     aspect-ratio: 1/2;
-     object-fit: contain;
+     object-fit: cover;
     }
   }
   
@@ -92,18 +90,18 @@ p {
 .mainmenu {
   font-size: 1.4rem;
   font-family: Barlow;
-  width:100%;
   background-color: white;
+  padding-top:0.5rem;
+  padding-bottom:0.5rem;
+  border-bottom:1px solid  #dcd3d3;
 }
 
 .mm-header{
   font-family: Hind;
 }
 
+
 @media (max-width:992px) {
-  .mainmenu , .mainmenu ul {
-    height: 100vh;
-  }
   .mainmenu ul li a {
     text-transform: uppercase;
   }
@@ -119,6 +117,10 @@ p {
     padding-top:0rem;
     padding-right:1.5rem;
     font-size: 1.1rem;
+  }
+
+  #mm-body {
+    height: auto !important;
   }
 }
 
