@@ -7,10 +7,9 @@
     <title>Huayra Bello</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/main.css" type="text/css">
-
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/main.js"></script>
 
@@ -19,46 +18,46 @@
 <body>
     <div class="container">
 
-        <nav class=" navbar navbar-expand-lg text-black bg-white mb-0 p-1 p-sm-0 fixed-top">
-            <div class="container">
-                <div class="navbar-brand pt-1 pb-0 mt-0 mb-0">
-                    <a class=" navbar-brand fs-4 d-block" href="index.html">Huayra Bello</a>
-
-                </div>
-
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse pe-5 " id="navbarNavDropdown">
-                    <ul class="navbar-nav ms-auto ">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item ps-3">
-                            <a class="nav-link" href="proyectos.html">Proyectos personales</a>
-                        </li>
-                        <li class="nav-item ps-3">
-                            <a class="nav-link active" href="audiovisual.html">Audiovisual</a>
-                        </li>
-
-                        <li class="nav-item dropdown ps-3">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Colaboraciones
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="re-existentes.html">Re-Existentes</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item  ps-3">
-                            <a class="nav-link" href="biocontacto.html">Bio/Contacto</a>
-                        </li>
-
-                    </ul>
-                </div>
+        <nav class="mainmenu text-black d-flex flex-column flex-lg-row g-0  fixed-top" id="mainmenu">
+            <div class="mm-header pt-1">
+                <a class="navbar-brand d-inline ps-5" href="index.html">Huayra Bello</a>
+                <a href="#" class="d-inline float-end pe-2 d-lg-none d-none" id="closemenu"><i
+                        class="bi bi-x-lg fs-1"></i></a>
+                <a href="#" class="d-inline float-end pe-2 d-lg-none " id="openmenu"><i class="bi bi-list fs-1"></i></a>
             </div>
+
+            <ul class="list-unstyled d-flex flex-column flex-lg-row ms-lg-auto mb-auto mt-auto pt-5 pt-lg-0 d-none d-lg-flex"
+                id="mm-body">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="proyectos.html">Proyectos personales</a>
+                </li>
+                <li>
+                    <a href="audiovisual.html">Audiovisual</a>
+                </li>
+                <li>
+                    <a href="colaboraciones.html"> Colaboraciones </a>
+                </li>
+                <li>
+                    <a href="biocontacto.html">Bio/Contacto</a>
+                </li>
+                <div class="menucontacto d-lg-none mt-auto mb-auto">
+                    <a href=" mailto:huaybello@riseup.net" target="_blank" class="text-black text-decoration-none pe-2">
+                        <i class="bi bi-envelope fs-1"></i>
+                    </a>
+                    <a href="http://www.instagram.com/huaybello/" target="_blank"
+                        class="text-black text-decoration-none pe-2">
+                        <i class="bi bi-instagram fs-1 "></i>
+                    </a>
+                    <a href="http://lnk.bio/huaybello" target="_blank" class="text-black text-decoration-none pe-2">
+                        <i class="bi bi-link-45deg fs-1"></i>
+                    </a>
+                </div>
+
+            </ul>
+
         </nav>
         <div class="container">
             <div class="row gx-5">
@@ -107,7 +106,7 @@
         </div>
 
 
-        <div class="contact_bottom text-center fixed-bottom">
+        <div class="contact_bottom text-center fixed-bottom d-none d-md-block">
             <span> Huayra Bello </span>
             <span class="separador">|</span>
             <span>Fótografa</span>

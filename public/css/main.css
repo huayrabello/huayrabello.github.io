@@ -1,21 +1,49 @@
+/* FUENTES */ 
+@font-face {
+  font-family: "Barlow";
+  src: url("fonts/BarlowSemiCondensed-Regular.ttf");
+}
+
+ @font-face {
+  font-family: "Barlow";
+  src: url("fonts/BarlowSemiCondensed-Italic.ttf");
+  font-style: italic;
+} 
+
+ /* @font-face {
+  font-family: "Barlow";
+  src: url("fonts/DejaVuSans-Light.ttf");
+  font-weight: lighter;
+} */
+
+@font-face {
+  font-family: "Hind";
+  src: url("fonts/Hind-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Macondo";
+  src: url("fonts/Macondo-Regular.ttf");
+}  
+
 
 /* ESTILOS GENERALES  */
 body {
   padding-top: 6rem;
   padding-bottom: 4rem;
+  font-family: Barlow;
 }
+
 
 p {
   text-align: justify;
 }
-
 
 /*ESTILOS PARA RESPONSIVE */
 @media (max-width:500px) {
   #carouselHome .home-instance img {
     aspect-ratio: 1/2;
      object-fit: cover;
-     
     }
   }
   
@@ -59,6 +87,78 @@ p {
   border-bottom: rgb(211, 206, 206) solid 1px;
 }
 
+.mainmenu {
+  font-size: 1.4rem;
+  font-family: Barlow;
+  background-color: white;
+  border-bottom:1px solid  #dcd3d3;
+}
+
+.mm-header{
+  font-family: Hind;
+}
+
+
+@media (max-width:992px) {
+  .mainmenu ul li a {
+    text-transform: uppercase;
+  }
+
+   .mainmenu ul li {
+    font-size: 1.7rem;
+    padding-top:0.5rem;
+    padding-bottom:0.5rem;
+  }
+
+  .mainmenu .menucontacto {
+    display: block;
+    text-align: center;
+  }
+
+  .mainmenu ul {
+    /* overflow-y: scroll; */
+  }
+
+}
+
+@media (min-width:992px) {
+  .mainmenu {
+  padding-left: 6rem;
+  padding-right: 6rem;
+  }
+
+  .mainmenu ul li {
+    padding-top:0rem;
+    padding-right:1.5rem;
+    font-size: 1.1rem;
+  }
+
+  #mm-body {
+    height: auto !important;
+  }
+}
+
+
+.mainmenu ul {
+  padding:0;
+}
+
+.mainmenu ul li {
+  text-align: center;
+}
+
+.mainmenu a {
+  text-align: center;
+  text-decoration: none;
+  color:rgb(45, 43, 43);
+}
+
+
+
+.mainmenu a:hover {
+  color:rgb(132, 125, 125);
+}
+
 /* Proyectos */
 .proyecto-instance{
   position: relative;
@@ -98,7 +198,14 @@ filter:alpha(opacity=1);
 
 .proyecto-img {
   aspect-ratio: 1/1;
-  object-fit:cover
+  object-fit:cover;
+ }
+
+ .proyectos-personales .col a>h5{
+  text-align: center;
+  color:black;
+  text-decoration: none;
+  padding-top: 0.3rem;
  }
 
  /* Proyecto individual */
