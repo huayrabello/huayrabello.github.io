@@ -1,5 +1,5 @@
 
-window.addEventListener("load", (e) => {
+window.addEventListener("DOMContentLoaded", (e) => {
 
     const closemenu = document.getElementById("closemenu")
     const openmenu = document.getElementById("openmenu")

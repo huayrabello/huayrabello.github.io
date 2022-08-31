@@ -91,8 +91,6 @@ p {
   font-size: 1.4rem;
   font-family: Barlow;
   background-color: white;
-  padding-top:0.5rem;
-  padding-bottom:0.5rem;
   border-bottom:1px solid  #dcd3d3;
 }
 
@@ -105,6 +103,22 @@ p {
   .mainmenu ul li a {
     text-transform: uppercase;
   }
+
+   .mainmenu ul li {
+    font-size: 1.7rem;
+    padding-top:0.5rem;
+    padding-bottom:0.5rem;
+  }
+
+  .mainmenu .menucontacto {
+    display: block;
+    text-align: center;
+  }
+
+  .mainmenu ul {
+    /* overflow-y: scroll; */
+  }
+
 }
 
 @media (min-width:992px) {
