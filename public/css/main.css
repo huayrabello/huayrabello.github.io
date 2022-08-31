@@ -103,10 +103,31 @@ p {
 }
 
 
+
+
 @media (max-width:992px) {
 
     .mainmenu {
-  padding-top: 0.5rem;
+  padding-top: 0.5rem; 
+  }
+
+
+  .mm-header .bi-x-lg{
+    font-size:2rem !important;
+  }
+  
+  
+  .mm-header .bi-list{
+    font-size:2.4rem !important;
+  }
+  
+  .mm-header .bi{
+    line-height:0.5rem !important;
+  }
+  
+  
+  .mm-header {
+    padding-right:0.5rem;
   }
 
   .mainmenu ul li a {
