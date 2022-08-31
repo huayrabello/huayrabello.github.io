@@ -16,12 +16,19 @@
     <script src="js/slick.min.js"></script>
     <script src="js/colaboraciones.js"></script>
     <script src="js/main.js"></script>
+
+    <style>
+        body {
+            padding-top: 2rem;
+            padding-bottom: 0;
+        }
+    </style>
 </head>
 
 <body>
 
     <div class="container-fluid p-lg-0 m-lg-0">
-        <nav class="mainmenu text-black d-flex flex-column flex-lg-row g-0  fixed-top" id="mainmenu">
+        <nav class="mainmenu text-black d-flex flex-column flex-lg-row g-0 fixed-top" id="mainmenu">
             <div class="mm-header pt-1">
                 <a class="navbar-brand d-inline ps-5" href="index.html">Huayra Bello</a>
                 <a href="#" class="d-inline float-end pe-2 d-lg-none d-none" id="closemenu"><i
@@ -47,7 +54,8 @@
                     <a href="biocontacto.html">Bio/Contacto</a>
                 </li>
                 <div class="menucontacto d-lg-none mt-auto mb-auto">
-                    <a href=" mailto:huayrabello@gmail.com" target="_blank" class="text-black text-decoration-none pe-2">
+                    <a href=" mailto:huayrabello@gmail.com" target="_blank"
+                        class="text-black text-decoration-none pe-2">
                         <i class="bi bi-envelope fs-1"></i>
                     </a>
                     <a href="http://www.instagram.com/huaybello/" target="_blank"
@@ -64,120 +72,122 @@
         </nav>
 
 
-        <div class="container-flui  p-lg-0 m-lg-0">
 
-            <div class="colaboraciones_slider" id="colaboraciones">
-                <div class="d-none d-lg-block">
-                    <a href="#" id="slider_prev" class="text-center"><i class="bi bi-chevron-left"></i></a>
+
+        <div class="colaboraciones_slider container-fluid p-0 m-0" id="colaboraciones">
+
+            <div class="d-none d-lg-block clearfix">
+                <a href="#" id="slider_prev" class="d-block float-start"><i class="bi bi-chevron-left"></i></a>
+
+                <a href=" #" id="slider_next" class="d-block float-end"><i class="bi bi-chevron-right"></i></a>
+            </div>
+            <div class="inner_slider" id="full_slider">
+                <div class="slide" id="firstslide">
+                    <div class="txt portada  ">
+                        <h5><strong>Comunidades agrícolas</strong></h5>
+                        <p><i>“Agarrarle amor a la tierra es conservarla, limpiarla y sembrarla para estar siempre
+                                en armonía con el suelo, con el sol y con el aire.”
+                            </i>
+                            Amparo García, productora campesina.
+                        </p>
+                        <p>
+                            Gracias a la tierra estamos vivos. La agricultura es uno de los oficios más antiguos de
+                            la humanidad, desde tiempos ancestrales las familias y comunidades agrícolas de
+                            Guatemala han trabajado la tierra para cultivar y cosechar una amplia variedad de
+                            alimentos. La agricultura representa un legado cultural que es transmitido generación
+                            tras generación y que hoy mantiene vivo un sistema agrícola diversificado, el cual
+                            retoma conocimientos ancestrales actualizados con tecnologías contemporáneas.
+                        </p>
+                        <p> Este es un recorrido visual por algunas comunidades agrícolas organizadas, de la región
+                            Sur Occidental de Guatemala.</p>
+
+                    </div>
+                    <img src="images/fotos/colaboraciones/ComunidadesAgricolas/1.JPG" />
                 </div>
-                <div class="inner_slider" id="reexistentes_slider">
-                    <div class="slide" id="firstslide">
-                        <div class="txt portada  ">
-                            <h5><strong>Comunidades agrícolas</strong></h5>
-                            <p><i>“Agarrarle amor a la tierra es conservarla, limpiarla y sembrarla para estar siempre
-                                    en armonía con el suelo, con el sol y con el aire.”
-                                </i>
-                                Amparo García, productora campesina.
-                            </p>
-                            <p>
-                                Gracias a la tierra estamos vivos. La agricultura es uno de los oficios más antiguos de
-                                la humanidad, desde tiempos ancestrales las familias y comunidades agrícolas de
-                                Guatemala han trabajado la tierra para cultivar y cosechar una amplia variedad de
-                                alimentos. La agricultura representa un legado cultural que es transmitido generación
-                                tras generación y que hoy mantiene vivo un sistema agrícola diversificado, el cual
-                                retoma conocimientos ancestrales actualizados con tecnologías contemporáneas.
-                            </p>
-                            <p> Este es un recorrido visual por algunas comunidades agrícolas organizadas, de la región
-                                Sur Occidental de Guatemala.</p>
-
-                        </div>
-                        <img src="images/fotos/colaboraciones/ComunidadesAgricolas/1.JPG" />
-                    </div>
-                    <div class="slide">
-                        <img src="images/fotos/colaboraciones/ComunidadesAgricolas/2.JPG" />
-                    </div>
-                    <div class="slide">
-                        <img src="images/fotos/colaboraciones/ComunidadesAgricolas/3.JPG" />
-                    </div>
-                    <div class="slide">
-                        <img src="images/fotos/colaboraciones/ComunidadesAgricolas/4.JPG" />
-                    </div>
-                    <div class="slide">
-                        <img src="images/fotos/colaboraciones/ComunidadesAgricolas/5.JPG" />
-                    </div>
-                    <div class="slide">
-                        <img src="images/fotos/colaboraciones/ComunidadesAgricolas/6.JPG" />
-                    </div>
-                    <div class="slide">
-                        <img src="images/fotos/colaboraciones/ComunidadesAgricolas/7.JPG" />
-                    </div>
-                    <div class="slide">
-                        <img src="images/fotos/colaboraciones/ComunidadesAgricolas/8.JPG" />
-                    </div>
-                    <div class="slide">
-                        <img src="images/fotos/colaboraciones/ComunidadesAgricolas/9.JPG" />
-                    </div>
-                    <div class="slide">
-                        <img src="images/fotos/colaboraciones/ComunidadesAgricolas/10.JPG" />
-                    </div>
-                    <div class="slide">
-                        <img src="images/fotos/colaboraciones/ComunidadesAgricolas/11.JPG" />
-                    </div>
-                    <div class="slide">
-                        <img src="images/fotos/colaboraciones/ComunidadesAgricolas/12.JPG" />
-                    </div>
-                    <div class="slide">
-                        <img src="images/fotos/colaboraciones/ComunidadesAgricolas/13.JPG" />
-                    </div>
-                    <div class="slide">
-                        <img src="images/fotos/colaboraciones/ComunidadesAgricolas/14.JPG" />
-                    </div>
-                    <div class="slide">
-                        <img src="images/fotos/colaboraciones/ComunidadesAgricolas/15.JPG" />
-                    </div>
-                    <div class="slide">
-                        <img src="images/fotos/colaboraciones/ComunidadesAgricolas/16.JPG" />
-                    </div>
-                    <div class="slide">
-                        <img src="images/fotos/colaboraciones/ComunidadesAgricolas/17.JPG" />
-                    </div>
-                    <div class="slide">
-                        <img src="images/fotos/colaboraciones/ComunidadesAgricolas/18.JPG" />
-                    </div>
-                    <div class="slide">
-                        <img src="images/fotos/colaboraciones/ComunidadesAgricolas/19.JPG" />
-                    </div>
-                    <div class="slide">
-                        <img src="images/fotos/colaboraciones/ComunidadesAgricolas/20.JPG" />
-                    </div>
-                    <div class="slide">
-                        <img src="images/fotos/colaboraciones/ComunidadesAgricolas/21.JPG" />
-                    </div>
-                    <div class="slide">
-                        <img src="images/fotos/colaboraciones/ComunidadesAgricolas/22.JPG" />
-                    </div>
-                    <div class="slide">
-                        <img src="images/fotos/colaboraciones/ComunidadesAgricolas/23.JPG" />
-                    </div>
-                    <div class="slide">
-                        <img src="images/fotos/colaboraciones/ComunidadesAgricolas/24.JPG" />
-                    </div>
-                    <div class="slide">
-                        <img src="images/fotos/colaboraciones/ComunidadesAgricolas/25.JPG" />
-                    </div>
-                    <div class="slide">
-                        <img src="images/fotos/colaboraciones/ComunidadesAgricolas/26.JPG" />
-                    </div>
-
-
-
+                <div class="slide">
+                    <img src="images/fotos/colaboraciones/ComunidadesAgricolas/2.JPG" />
                 </div>
-                <div class="d-none d-lg-block">
-                    <a href=" #" id="slider_next" class="text-center"><i class="bi bi-chevron-right"></i></a>
+                <div class="slide">
+                    <img src="images/fotos/colaboraciones/ComunidadesAgricolas/3.JPG" />
                 </div>
+                <div class="slide">
+                    <img src="images/fotos/colaboraciones/ComunidadesAgricolas/4.JPG" />
+                </div>
+                <div class="slide">
+                    <img src="images/fotos/colaboraciones/ComunidadesAgricolas/5.JPG" />
+                </div>
+                <div class="slide">
+                    <img src="images/fotos/colaboraciones/ComunidadesAgricolas/6.JPG" />
+                </div>
+                <div class="slide">
+                    <img src="images/fotos/colaboraciones/ComunidadesAgricolas/7.JPG" />
+                </div>
+                <div class="slide">
+                    <img src="images/fotos/colaboraciones/ComunidadesAgricolas/8.JPG" />
+                </div>
+                <div class="slide">
+                    <img src="images/fotos/colaboraciones/ComunidadesAgricolas/9.JPG" />
+                </div>
+                <div class="slide">
+                    <img src="images/fotos/colaboraciones/ComunidadesAgricolas/10.JPG" />
+                </div>
+                <div class="slide">
+                    <img src="images/fotos/colaboraciones/ComunidadesAgricolas/11.JPG" />
+                </div>
+                <div class="slide">
+                    <img src="images/fotos/colaboraciones/ComunidadesAgricolas/12.JPG" />
+                </div>
+                <div class="slide">
+                    <img src="images/fotos/colaboraciones/ComunidadesAgricolas/13.JPG" />
+                </div>
+                <div class="slide">
+                    <img src="images/fotos/colaboraciones/ComunidadesAgricolas/14.JPG" />
+                </div>
+                <div class="slide">
+                    <img src="images/fotos/colaboraciones/ComunidadesAgricolas/15.JPG" />
+                </div>
+                <div class="slide">
+                    <img src="images/fotos/colaboraciones/ComunidadesAgricolas/16.JPG" />
+                </div>
+                <div class="slide">
+                    <img src="images/fotos/colaboraciones/ComunidadesAgricolas/17.JPG" />
+                </div>
+                <div class="slide">
+                    <img src="images/fotos/colaboraciones/ComunidadesAgricolas/18.JPG" />
+                </div>
+                <div class="slide">
+                    <img src="images/fotos/colaboraciones/ComunidadesAgricolas/19.JPG" />
+                </div>
+                <div class="slide">
+                    <img src="images/fotos/colaboraciones/ComunidadesAgricolas/20.JPG" />
+                </div>
+                <div class="slide">
+                    <img src="images/fotos/colaboraciones/ComunidadesAgricolas/21.JPG" />
+                </div>
+                <div class="slide">
+                    <img src="images/fotos/colaboraciones/ComunidadesAgricolas/22.JPG" />
+                </div>
+                <div class="slide">
+                    <img src="images/fotos/colaboraciones/ComunidadesAgricolas/23.JPG" />
+                </div>
+                <div class="slide">
+                    <img src="images/fotos/colaboraciones/ComunidadesAgricolas/24.JPG" />
+                </div>
+                <div class="slide">
+                    <img src="images/fotos/colaboraciones/ComunidadesAgricolas/25.JPG" />
+                </div>
+                <div class="slide">
+                    <img src="images/fotos/colaboraciones/ComunidadesAgricolas/26.JPG" />
+                </div>
+
+
+
             </div>
 
+
+
         </div>
+
 
         <div class="contact_bottom text-center fixed-bottom d-none d-md-block">
             <span> Huayra Bello </span>

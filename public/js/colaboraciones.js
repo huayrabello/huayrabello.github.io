@@ -12,11 +12,9 @@ function addHorizontalSlider(id, mediaQuery) {
             variableWidth: true,
             appendArrows: false,
             appendDots: false,
-            centerMode: false,
             draggable: true,
             swipeToSlide: false,
-            responsive: true,
-
+            responsive: false
         });
 
         //Carrusel
@@ -46,11 +44,11 @@ window.addEventListener("load", (e) => {
 
     const mediaQuery = window.matchMedia("(min-width: 992px)")
 
-    addHorizontalSlider("#reexistentes_slider", mediaQuery)
+    addHorizontalSlider("#full_slider", mediaQuery)
 
     mediaQuery.addEventListener("change", () => {
 
-        addHorizontalSlider("#reexistentes_slider", mediaQuery);
+        addHorizontalSlider("#full_slider", mediaQuery);
 
     })
 

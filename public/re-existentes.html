@@ -16,12 +16,19 @@
     <script src="js/slick.min.js"></script>
     <script src="js/colaboraciones.js"></script>
     <script src="js/main.js"></script>
+
+    <style>
+        body {
+            padding-top: 2rem;
+            padding-bottom: 0;
+        }
+    </style>
 </head>
 
 <body>
 
     <div class="container-fluid p-lg-0 m-lg-0">
-        <nav class="mainmenu text-black d-flex flex-column flex-lg-row g-0  fixed-top" id="mainmenu">
+        <nav class="mainmenu text-black d-flex flex-column flex-lg-row g-0 fixed-top" id="mainmenu">
             <div class="mm-header pt-1">
                 <a class="navbar-brand d-inline ps-5" href="index.html">Huayra Bello</a>
                 <a href="#" class="d-inline float-end pe-2 d-lg-none d-none" id="closemenu"><i
@@ -47,7 +54,8 @@
                     <a href="biocontacto.html">Bio/Contacto</a>
                 </li>
                 <div class="menucontacto d-lg-none mt-auto mb-auto">
-                    <a href=" mailto:huayrabello@gmail.com" target="_blank" class="text-black text-decoration-none pe-2">
+                    <a href=" mailto:huayrabello@gmail.com" target="_blank"
+                        class="text-black text-decoration-none pe-2">
                         <i class="bi bi-envelope fs-1"></i>
                     </a>
                     <a href="http://www.instagram.com/huaybello/" target="_blank"
@@ -64,173 +72,171 @@
         </nav>
 
 
-        <div class="container-flui  p-lg-0 m-lg-0">
 
-            <div class="colaboraciones_slider" id="colaboraciones">
-                <div class="d-none d-lg-block">
-                    <a href="#" id="slider_prev" class="text-center"><i class="bi bi-chevron-left"></i></a>
+        <div class="colaboraciones_slider container-fluid p-0 m-0" id="colaboraciones">
+
+            <div class="d-none d-lg-block clearfix">
+                <a href="#" id="slider_prev" class="d-block float-start"><i class="bi bi-chevron-left"></i></a>
+
+                <a href=" #" id="slider_next" class="d-block float-end"><i class="bi bi-chevron-right"></i></a>
+            </div>
+
+            <div class="inner_slider" id="full_slider">
+                <div class="slide">
+                    <div class="txt portada  ">
+                        <h5><strong>Re-Existentes podcast – Identidades plurales resistentes y resilientes
+                                durante la pandemia</strong></h5>
+                        <p>En vísperas de la navidad del 2021, la periodista Florencia Goldsman me invitó a
+                            formar parte de este proyecto de investigación visual y sonora. Juntas viajamos
+                            a
+                            Chichicastenango, Santiago Atitlán y algunos barrios de la ciudad de Guatemala,
+                            para
+                            conversar y retratar a personas cuyas voces despliegan fragmentos del enorme
+                            abanico
+                            de las sexualidades disidentes, plurales y diversas.</p>
+                        <p>Frente a un contexto opresivo para la expresión de la sexualidad y el género,
+                            resulta
+                            indispensable hacernos eco de estas historias que trascienden fronteras, para
+                            luchar
+                            por la autodeterminación, la liberación sexual y una vida libre de violencias.
+                        </p>
+                        <p class="m-0"> <a href="https://www.no-ficcion.com/project/re-existentes-podcast-ep01">Escuchar
+                                Podcast</a></p>
+                        <p class="m-0">Diseño portada: Mapa Herrera</p>
+                    </div>
+                    <img src="images/fotos/colaboraciones/re-existentes/portada 03.JPG" />
                 </div>
-                <div class="inner_slider" id="reexistentes_slider">
-                    <div class="slide" id="firstslide">
-                        <div class="txt portada  ">
-                            <h5><strong>Re-Existentes podcast – Identidades plurales resistentes y resilientes
-                                    durante la pandemia</strong></h5>
-                            <p>En vísperas de la navidad del 2021, la periodista Florencia Goldsman me invitó a
-                                formar parte de este proyecto de investigación visual y sonora. Juntas viajamos
-                                a
-                                Chichicastenango, Santiago Atitlán y algunos barrios de la ciudad de Guatemala,
-                                para
-                                conversar y retratar a personas cuyas voces despliegan fragmentos del enorme
-                                abanico
-                                de las sexualidades disidentes, plurales y diversas.</p>
-                            <p>Frente a un contexto opresivo para la expresión de la sexualidad y el género,
-                                resulta
-                                indispensable hacernos eco de estas historias que trascienden fronteras, para
-                                luchar
-                                por la autodeterminación, la liberación sexual y una vida libre de violencias.
-                            </p>
-                            <p class="m-0"> <a
-                                    href="https://www.no-ficcion.com/project/re-existentes-podcast-ep01">Escuchar
-                                    Podcast</a></p>
-                            <p class="m-0">Diseño portada: Mapa Herrera</p>
-                        </div>
-                        <img src="images/fotos/colaboraciones/re-existentes/portada 03.JPG" />
+                <div class="slide">
+                    <div class="txt h-100 align-self-center">
+                        <p>
+                            "Mi nombre es Marjorie Alonso de Sousa, soy una persona de la comunidad LGTBI.
+                        <p>Me veo rodeada de animalitos, así que encuentro por la calle. Ese es mi sueño más
+                            anhelado serme una chica transgénero, cambiarme de sexo, cambiarme de sexo para
+                            poder ser una buena doctora veterinaria."</p>
+                        </p>
                     </div>
-                    <div class="slide">
-                        <div class="txt h-100 align-self-center">
-                            <p>
-                                "Mi nombre es Marjorie Alonso de Sousa, soy una persona de la comunidad LGTBI.
-                            <p>Me veo rodeada de animalitos, así que encuentro por la calle. Ese es mi sueño más
-                                anhelado serme una chica transgénero, cambiarme de sexo, cambiarme de sexo para
-                                poder ser una buena doctora veterinaria."</p>
-                            </p>
-                        </div>
-                        <img src="images/fotos/colaboraciones/re-existentes/1.JPG" />
+                    <img src="images/fotos/colaboraciones/re-existentes/1.JPG" />
+                </div>
+                <div class="slide">
+
+                    <div class="txt ">
+                        <p>
+                            "Soy Alex Rodrigo Castillo Hernández. Soy un hombre transexual. Coordinador del
+                            colectivo de Hombres Trans de Guatemala.
+                        <p>Es hasta los 43 años que me doy el permiso o el tiempo de cuestionar realmente por
+                            qué me siento tan raro y diferente (...) Pero es hasta en el 2013 cuando yo conozco
+                            a los primeros hombres trans, que me bastó cinco minutos para darme cuenta de quién
+                            era: Que simple y sencillamente fue quién es una persona trans. Entonces sí tuve que
+                            esperar 43 años de mi vida para saber quién era."</p>
+                        </p>
                     </div>
-                    <div class="slide">
-
-                        <div class="txt ">
-                            <p>
-                                "Soy Alex Rodrigo Castillo Hernández. Soy un hombre transexual. Coordinador del
-                                colectivo de Hombres Trans de Guatemala.
-                            <p>Es hasta los 43 años que me doy el permiso o el tiempo de cuestionar realmente por
-                                qué me siento tan raro y diferente (...) Pero es hasta en el 2013 cuando yo conozco
-                                a los primeros hombres trans, que me bastó cinco minutos para darme cuenta de quién
-                                era: Que simple y sencillamente fue quién es una persona trans. Entonces sí tuve que
-                                esperar 43 años de mi vida para saber quién era."</p>
-                            </p>
-                        </div>
-                        <img src="images/fotos/colaboraciones/re-existentes/2.JPG" />
-
-                    </div>
-                    <div class="slide">
-
-                        <div class="txt ">
-                            <p>
-                                "Mi nombre es Ani Gabriela. Soy una mujer maya quiché, soy de profesión politóloga.
-                                Y pues me considero también ya una una Maya Ajq ́ij que se dedica justamente a sanar
-                                problemas de familia, pues porque ese es el don que a mí se me permite."
-                            </p>
-                        </div>
-                        <img src="images/fotos/colaboraciones/re-existentes/3.JPG" />
-
-                    </div>
-                    <div class="slide nomargin">
-                        <div class="txt">
-                            <p>
-                                "Mi nombre es Kristel Mendoza, soy originaria de Santiago Atitlán y soy una chica
-                                trans.
-                            <p>Cuando yo empecé a vestir de mujer tuve muchas críticas e incluso, le hablaron a mi
-                                mamá, porque yo me empecé a tras vestir a los 15 años, a salir en las calles vestida
-                                de mujer, pero a escondidas de mi familia. No me arreglaba en mi casa, me arreglaba
-                                en un cuarto con una amiga o en la casa de mi amiga. Pero, aquí la gente es muy
-                                conservadora y nuestra vida es un gran pecado para ellos."</p>
-                            </p>
-                        </div>
-                        <img src="images/fotos/colaboraciones/re-existentes/4.JPG" />
-
-                    </div>
-                    <div class="slide">
-                        <img src="images/fotos/colaboraciones/re-existentes/5.JPG" />
-                    </div>
-                    <div class="slide">
-
-                        <div class="txt ">
-                            <p>
-                                "Soy Cristian. Yo quisiera que hubiera más oportunidades, que hubieran empresas que
-                                no fueran tan, o sea específicamente hombre hombre, mujer mujer, si no que fuera
-                                parejo, pues, y que nos dieran oportunidades tanto en educación, en trabajo, como en
-                                la salud."
-                            </p>
-                        </div>
-                        <img src="images/fotos/colaboraciones/re-existentes/6.JPG" />
-
-                    </div>
-                    <div class="slide nomargin">
-                        <div class="txt ">
-                            <p>
-                                "Soy Juanma Orozco o MariPosona. Soy dentista, soy drag, soy diverso, soy trans, soy
-                                no binarie. Ahí, paremos de contar.
-                            <p> Siento que la sociedad le pide muchas explicaciones a las personas que están
-                                descubriendo qué son. Porque ahora hay tantísimos términos, que primero uno tiene
-                                que leérselos todos y luego ir uno por uno, así como: Ah! esto sí un poquito, pero
-                                esto también un poquito, pero esto también un poquito.</p>
-                            Entonces esa taxonomía hasta cierto punto de querer nombrar específicamente con
-                            nombre y apellido, es bien dura al final. Y le pone mucha presión en general a la
-                            gente. Porque apenas uno sabe".
-                            </p>
-                        </div>
-                        <img src="images/fotos/colaboraciones/re-existentes/7.JPG" />
-
-
-                    </div>
-                    <div class="slide">
-                        <img src="images/fotos/colaboraciones/re-existentes/8.JPG" />
-                    </div>
-                    <div class="slide nomargin">
-                        <img src="images/fotos/colaboraciones/re-existentes/9.JPG" />
-                        <div class="txt ">
-                            <p>
-                                "Me gustaría decirle a la ciudadanía guatemalteca que ya basta de tanta
-                                discriminación y de tantos estigmas que tienen para la comunidad LGTBI, porque todos
-                                en realidad somos seres humanos y merecemos vivir en el mismo mundo que vivimos hoy
-                                en día."
-                            </p>
-                        </div>
-                        <img src="images/fotos/colaboraciones/re-existentes/10.JPG" />
-
-
-                    </div>
-                    <div class="slide">
-                        <img src="images/fotos/colaboraciones/re-existentes/11.JPG" />
-                        <img src="images/fotos/colaboraciones/re-existentes/12.JPG" />
-                    </div>
-                    <div class="slide nomargin">
-
-                        <div class="txt ">
-                            <p>
-                                "Retomar tu historia, o sea hacer un retroceso de hace 500 años inclusive más. Irte
-                                reconociendo en los cuerpos de tus ancestras y de tus ancestros, qué situaciones
-                                pasaron, qué momentos vivieron.
-                            <p>Entonces para mi, cuerpo-territorio es reconocer
-                                todas esas situaciones que te han pasado, también identificar y saber reconocer que
-                                no todo ha sido positivo, también han habido cosas negativas de todo un estado o un
-                                sistema
-                                mundial o global."</p>
-                            </p>
-                        </div>
-                        <img src="images/fotos/colaboraciones/re-existentes/13.JPG" />
-
-                    </div>
-                    <div class="slide">
-                        <img src="images/fotos/colaboraciones/re-existentes/14.JPG" />
-
-                    </div>
+                    <img src="images/fotos/colaboraciones/re-existentes/2.JPG" />
 
                 </div>
-                <div class="d-none d-lg-block">
-                    <a href=" #" id="slider_next" class="text-center"><i class="bi bi-chevron-right"></i></a>
+                <div class="slide">
+
+                    <div class="txt ">
+                        <p>
+                            "Mi nombre es Ani Gabriela. Soy una mujer maya quiché, soy de profesión politóloga.
+                            Y pues me considero también ya una una Maya Ajq ́ij que se dedica justamente a sanar
+                            problemas de familia, pues porque ese es el don que a mí se me permite."
+                        </p>
+                    </div>
+                    <img src="images/fotos/colaboraciones/re-existentes/3.JPG" />
+
                 </div>
+                <div class="slide">
+                    <div class="txt">
+                        <p>
+                            "Mi nombre es Kristel Mendoza, soy originaria de Santiago Atitlán y soy una chica
+                            trans.
+                        <p>Cuando yo empecé a vestir de mujer tuve muchas críticas e incluso, le hablaron a mi
+                            mamá, porque yo me empecé a tras vestir a los 15 años, a salir en las calles vestida
+                            de mujer, pero a escondidas de mi familia. No me arreglaba en mi casa, me arreglaba
+                            en un cuarto con una amiga o en la casa de mi amiga. Pero, aquí la gente es muy
+                            conservadora y nuestra vida es un gran pecado para ellos."</p>
+                        </p>
+                    </div>
+                    <img src="images/fotos/colaboraciones/re-existentes/4.JPG" />
+
+                </div>
+                <div class="slide">
+                    <img src="images/fotos/colaboraciones/re-existentes/5.JPG" />
+                </div>
+                <div class="slide">
+
+                    <div class="txt ">
+                        <p>
+                            "Soy Cristian. Yo quisiera que hubiera más oportunidades, que hubieran empresas que
+                            no fueran tan, o sea específicamente hombre hombre, mujer mujer, si no que fuera
+                            parejo, pues, y que nos dieran oportunidades tanto en educación, en trabajo, como en
+                            la salud."
+                        </p>
+                    </div>
+                    <img src="images/fotos/colaboraciones/re-existentes/6.JPG" />
+
+                </div>
+                <div class="slide">
+                    <div class="txt ">
+                        <p>
+                            "Soy Juanma Orozco o MariPosona. Soy dentista, soy drag, soy diverso, soy trans, soy
+                            no binarie. Ahí, paremos de contar.
+                        <p> Siento que la sociedad le pide muchas explicaciones a las personas que están
+                            descubriendo qué son. Porque ahora hay tantísimos términos, que primero uno tiene
+                            que leérselos todos y luego ir uno por uno, así como: Ah! esto sí un poquito, pero
+                            esto también un poquito, pero esto también un poquito.</p>
+                        Entonces esa taxonomía hasta cierto punto de querer nombrar específicamente con
+                        nombre y apellido, es bien dura al final. Y le pone mucha presión en general a la
+                        gente. Porque apenas uno sabe".
+                        </p>
+                    </div>
+                    <img src="images/fotos/colaboraciones/re-existentes/7.JPG" />
+
+
+                </div>
+                <div class="slide">
+                    <img src="images/fotos/colaboraciones/re-existentes/8.JPG" />
+                </div>
+                <div class="slide">
+                    <img src="images/fotos/colaboraciones/re-existentes/9.JPG" />
+                    <div class="txt ">
+                        <p>
+                            "Me gustaría decirle a la ciudadanía guatemalteca que ya basta de tanta
+                            discriminación y de tantos estigmas que tienen para la comunidad LGTBI, porque todos
+                            en realidad somos seres humanos y merecemos vivir en el mismo mundo que vivimos hoy
+                            en día."
+                        </p>
+                    </div>
+                    <img src="images/fotos/colaboraciones/re-existentes/10.JPG" />
+
+
+                </div>
+                <div class="slide">
+                    <img src="images/fotos/colaboraciones/re-existentes/11.JPG" />
+                    <img src="images/fotos/colaboraciones/re-existentes/12.JPG" />
+                </div>
+                <div class="slide">
+
+                    <div class="txt ">
+                        <p>
+                            "Retomar tu historia, o sea hacer un retroceso de hace 500 años inclusive más. Irte
+                            reconociendo en los cuerpos de tus ancestras y de tus ancestros, qué situaciones
+                            pasaron, qué momentos vivieron.
+                        <p>Entonces para mi, cuerpo-territorio es reconocer
+                            todas esas situaciones que te han pasado, también identificar y saber reconocer que
+                            no todo ha sido positivo, también han habido cosas negativas de todo un estado o un
+                            sistema
+                            mundial o global."</p>
+                        </p>
+                    </div>
+                    <img src="images/fotos/colaboraciones/re-existentes/13.JPG" />
+
+                </div>
+                <div class="slide">
+                    <img src="images/fotos/colaboraciones/re-existentes/14.JPG" />
+
+                </div>
+
             </div>
 
         </div>
