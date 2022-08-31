@@ -34,6 +34,10 @@ body {
   font-family: Barlow;
 }
 
+body.colaboracion {
+    padding-top: 3rem !important;
+    padding-bottom: 0 !important;;
+}
 
 p {
   text-align: justify;
@@ -100,6 +104,11 @@ p {
 
 
 @media (max-width:992px) {
+
+    .mainmenu {
+  padding-top: 0.5rem;
+  }
+
   .mainmenu ul li a {
     text-transform: uppercase;
   }
@@ -123,8 +132,11 @@ p {
 
 @media (min-width:992px) {
   .mainmenu {
-  padding-left: 6rem;
-  padding-right: 6rem;
+  padding: 0.5rem 6rem 0.5rem 6rem;
+  }
+
+  #closemenu,#openmenu{
+    padding-left:1.5rem;
   }
 
   .mainmenu ul li {
@@ -152,7 +164,6 @@ p {
   text-decoration: none;
   color:rgb(45, 43, 43);
 }
-
 
 
 .mainmenu a:hover {
@@ -199,6 +210,8 @@ filter:alpha(opacity=1);
 .proyecto-img {
   aspect-ratio: 1/1;
   object-fit:cover;
+ width: 100%;
+ height: 100%;
  }
 
  .proyectos-personales .col a>h5{
