@@ -6,7 +6,7 @@ function preloadImages(seccion) {
     spinner.classList.remove("d-none")
     fetch("data/fotos.json").then(r => r.json()).then(
         data => {
-            if (data[seccion] !== undefined) {
+            if (data[seccion] !== undefined && data[seccion].preload) {
 
                 const seccionFotos = data[seccion];
                 const totalToPreload = seccionFotos.preloadfiles.length
@@ -14,15 +14,23 @@ function preloadImages(seccion) {
 
                 seccionFotos.preloadfiles.forEach(file => {
                     const tmp = new Image();
-                    tmp.src = seccionFotos.path + file
+
                     tmp.addEventListener("load", () => {
                         totalPreloaded++;
-                        if (totalPreloaded >= totalToPreload) {
-                            spinner.classList.add("d-none")
-                            // seccionToHide.classList.remove("visually-hidden");
-                        }
+                        if (totalPreloaded >= totalToPreload) spinner.classList.add("d-none")
                     })
+
+                    tmp.addEventListener("error", () => {
+                        console.error("No se pudo cargar imagen " + seccionFotos.path + file);
+                        totalPreloaded++;
+                        if (totalPreloaded >= totalToPreload) spinner.classList.add("d-none")
+                    })
+
+                    tmp.src = seccionFotos.path + file
+
                 });
+
+
             }
 
             else console.error("No existe seccion en data.json")
