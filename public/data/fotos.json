@@ -1,0 +1,14 @@
+{
+  "re-existentes": {
+    "path": "images/fotos/colaboraciones/re-existentes",
+    "preload": ["1.jpg"]
+  },
+  "comunidades-agricolas": {
+    "path": "images/fotos/colaboraciones/comunidades-agricolas",
+    "preload": ["1.jpg"]
+  },
+  "muccsac": {
+    "path": "images/fotos/colaboraciones/muccsac",
+    "preload": ["1.jpg"]
+  }
+}
