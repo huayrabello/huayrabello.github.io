@@ -44,7 +44,6 @@ p {
 }
 
 .loadingspinner {
-  display: none;
   top: 0;
   left: 0;
   right: 0;
@@ -52,8 +51,8 @@ p {
   position:fixed;
   width:100%;
   height:100%;
-  background-color:rgb(10,10,10,0.8)
-  /* z-index: 1000000; */
+  background-color:rgb(10,10,10,0.7);
+  z-index: 1000000;
   
 }
 

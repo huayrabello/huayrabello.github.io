@@ -1,14 +1,117 @@
 {
   "re-existentes": {
-    "path": "images/fotos/colaboraciones/re-existentes",
-    "preload": ["1.jpg"]
+    "path": "images/fotos/colaboraciones/re-existentes/",
+    "preload": true,
+    "preloadfiles": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg",
+      "5.jpg",
+      "6.jpg",
+      "7.jpg",
+      "8.jpg",
+      "9.jpg",
+      "10.jpg",
+      "11.jpg",
+      "12.jpg",
+      "13.jpg",
+      "14.jpg"
+    ]
   },
   "comunidades-agricolas": {
-    "path": "images/fotos/colaboraciones/comunidades-agricolas",
-    "preload": ["1.jpg"]
+    "path": "images/fotos/colaboraciones/comunidades-agricolas/",
+    "preload": true,
+    "preloadfiles": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg",
+      "5.jpg",
+      "6.jpg",
+      "7.jpg",
+      "8.jpg",
+      "9.jpg",
+      "10.jpg",
+      "11.jpg",
+      "12.jpg",
+      "13.jpg",
+      "14.jpg",
+      "15.jpg",
+      "16.jpg",
+      "17.jpg",
+      "18.jpg",
+      "19.jpg",
+      "20.jpg",
+      "21.jpg",
+      "22.jpg",
+      "23.jpg",
+      "24.jpg",
+      "25.jpg",
+      "26.jpg"
+    ]
   },
   "muccsac": {
-    "path": "images/fotos/colaboraciones/muccsac",
-    "preload": ["1.jpg"]
+    "path": "images/fotos/colaboraciones/muccsac/",
+    "preload": true,
+    "preloadfiles": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg",
+      "5.jpg",
+      "6.jpg",
+      "7.jpg",
+      "8.jpg",
+      "9.jpg",
+      "10.jpg",
+      "11.jpg",
+      "12.jpg",
+      "13.jpg",
+      "14.jpg",
+      "15.jpg",
+      "16.jpg",
+      "17.jpg",
+      "18.jpg",
+      "19.jpg",
+      "20.jpg",
+      "21.jpg"
+    ]
+  },
+  "cuandoelfuego": {
+    "path": "images/fotos/proyectos/cuandoelfuego/thumbnails-medianos/",
+    "preload": true,
+    "preloadfiles": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg",
+      "5.jpg",
+      "6.jpg",
+      "7.jpg",
+      "8.jpg",
+      "9.jpg",
+      "10.jpg",
+      "11.jpg",
+      "12.jpg"
+    ]
+  },
+  "cuandoelfuego_hd": {
+    "path": "images/fotos/proyectos/cuandoelfuego/hd/",
+    "preload": true,
+    "preloadfiles": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg",
+      "5.jpg",
+      "6.jpg",
+      "7.jpg",
+      "8.jpg",
+      "9.jpg",
+      "10.jpg",
+      "11.jpg",
+      "12.jpg"
+    ]
   }
 }

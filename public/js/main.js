@@ -1,4 +1,36 @@
 
+function preloadImages(seccion) {
+    const spinner = document.querySelector(".loadingspinner");
+    const seccionToHide = document.querySelector(".colaboraciones_slider");
+    // seccionToHide.classList.add("visually-hidden");
+    spinner.classList.remove("d-none")
+    fetch("data/fotos.json").then(r => r.json()).then(
+        data => {
+            if (data[seccion] !== undefined) {
+
+                const seccionFotos = data[seccion];
+                const totalToPreload = seccionFotos.preloadfiles.length
+                let totalPreloaded = 0
+
+                seccionFotos.preloadfiles.forEach(file => {
+                    const tmp = new Image();
+                    tmp.src = seccionFotos.path + file
+                    tmp.addEventListener("load", () => {
+                        totalPreloaded++;
+                        if (totalPreloaded >= totalToPreload) {
+                            spinner.classList.add("d-none")
+                            // seccionToHide.classList.remove("visually-hidden");
+                        }
+                    })
+                });
+            }
+
+            else console.error("No existe seccion en data.json")
+        })
+
+}
+
+
 window.addEventListener("DOMContentLoaded", (e) => {
 
     const closemenu = document.getElementById("closemenu")

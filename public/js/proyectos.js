@@ -33,6 +33,7 @@ function setupProyecto() {
             element.addEventListener("click", () => {
                 carousel.to(index);
                 myModal.toggle();
+                preloadImages("cuandoelfuego_hd");
             })
         }
 
@@ -60,7 +61,7 @@ function setupProyecto() {
 }
 
 
-window.addEventListener("load", (e) => {
+window.addEventListener("DOMContentLoaded", (e) => {
     setupProyecto();
 
 })

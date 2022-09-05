@@ -40,7 +40,7 @@ function addHorizontalSlider(id, mediaQuery) {
 }
 
 
-window.addEventListener("load", (e) => {
+window.addEventListener("DOMContentLoaded", (e) => {
 
     const mediaQuery = window.matchMedia("(min-width: 992px)")
 
