@@ -1,9 +1,10 @@
 
+
 function preloadImages(seccion) {
     const spinner = document.querySelector(".loadingspinner");
-    const seccionToHide = document.querySelector(".colaboraciones_slider");
-    // seccionToHide.classList.add("visually-hidden");
     spinner.classList.remove("d-none")
+    //const seccionToHide = document.querySelector(".colaboraciones_slider");
+    // seccionToHide.classList.add("visually-hidden");
     fetch("data/fotos.json").then(r => r.json()).then(
         data => {
             if (data[seccion] !== undefined && data[seccion].preload) {
@@ -40,7 +41,6 @@ function preloadImages(seccion) {
 
 
 window.addEventListener("DOMContentLoaded", (e) => {
-
     const closemenu = document.getElementById("closemenu")
     const openmenu = document.getElementById("openmenu")
     const menu = document.getElementById("mainmenu")
@@ -64,4 +64,10 @@ window.addEventListener("DOMContentLoaded", (e) => {
     })
 
 
+})
+
+
+window.addEventListener("load", () => {
+    const spinner = document.querySelector(".loadingspinner");
+    if (spinner) spinner.classList.add("d-none")
 })
