@@ -32,7 +32,7 @@
 
 <body>
     <div class="container-fluid p-0 m-0">
-        <nav class="mainmenu text-black d-flex flex-column flex-lg-row g-0 fixed-top" id="mainmenu">
+        <nav class="mainmenu text-white d-flex flex-column flex-lg-row g-0 fixed-top" id="mainmenu">
             <div class="mm-header pt-1">
                 <a class="navbar-brand d-inline ps-5" href="index.html">Huayra Bello</a>
                 <a href="#" class="d-inline float-end pe-2 d-lg-none d-none" id="closemenu"><i
@@ -75,7 +75,8 @@
 
         </nav>
 
-        <img src="images/fotos/home/home-2.jpg" class="img-fluid" />
+        <img src="images/fotos/home/home-2.jpg" class="img-fluid d-none d-md-block" />
+        <img src="images/fotos/home/home-mobile.jpg" class="img-fluid d-md-none" />
         <!-- <div id="carouselHome" class="carousel slide carousel-fade position-fixed" data-bs-pause="false"
             data-bs-interval="3000" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -131,7 +132,14 @@
         </a>
     </div>
 
+    <div class="loadingspinner">
+        <div class="d-flex flex-column h-100 align-items-center justify-content-center">
+            <div class="spinner-border text-white " role="status">
+            </div>
+            <div class="text-white text-center pt-2">Cargando ...</div>
+        </div>
 
+    </div>
 
 
 

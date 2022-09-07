@@ -43,6 +43,11 @@ p {
   text-align: justify;
 }
 
+.homemobile {
+object-fit:contain ;
+object-position:center;
+}
+
 .loadingspinner {
   top: 0;
   left: 0;
