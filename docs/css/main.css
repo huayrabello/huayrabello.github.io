@@ -67,6 +67,20 @@ object-position:center;
   font-size: 1rem;
 }
 
+a {
+  text-decoration: none;
+  color:black;
+}
+
+a:visited{
+  text-decoration: none;
+  color:black;
+}
+
+a:hover{
+  text-decoration: underline;
+  color:rgb(174, 87, 245);
+}
 
 /*ESTILOS PARA RESPONSIVE */
 @media (max-width:500px) {
@@ -203,11 +217,21 @@ object-position:center;
   text-align: center;
   text-decoration: none;
   color:rgb(45, 43, 43);
+  text-transform: uppercase;
+  
 }
 
 
+.mainmenu a.menuactive {
+  color:rgb(174, 87, 245);
+
+  /* text-decoration: underline; */
+}
+
+
+
 .mainmenu a:hover {
-  color:rgb(132, 125, 125);
+  color:rgb(174, 87, 245);
 }
 
 /* Proyectos */
@@ -333,10 +357,6 @@ color:#1f1d1d;
   color:black;
 }
 
-.contact_bottom a:visited{
-  text-decoration: none;
-  color:black;
-}
 
 .contact_bottom span {
 }
