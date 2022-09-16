@@ -132,9 +132,16 @@ a:hover{
 }
 
 .mm-header{
-  font-family: Hind;
+  font-family:Macondo;
 }
 
+#mm-body{
+  text-transform: uppercase;
+}
+
+.mm-header .navbar-brand {
+  font-size: 1.8rem;
+}
 
 
 
@@ -217,7 +224,7 @@ a:hover{
   text-align: center;
   text-decoration: none;
   color:rgb(45, 43, 43);
-  text-transform: uppercase;
+
   
 }
 
