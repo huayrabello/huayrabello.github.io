@@ -3,7 +3,7 @@
 function preloadImages(seccion) {
     const spinner = document.querySelector(".loadingspinner");
     spinner.classList.remove("d-none")
-    //const seccionToHide = document.querySelector(".colaboraciones_slider");
+    //const seccionToHide = document.querySelector(".slick_slider");
     // seccionToHide.classList.add("visually-hidden");
     fetch("data/fotos.json").then(r => r.json()).then(
         data => {
