@@ -20,19 +20,28 @@ body.conslider {
 }
 
 p {
-  text-align: center;
+  text-align: justify;
 }
 
+@media (min-width:992px) {
 .content {
-  padding-left:5rem;
-  padding-right: 5rem;
+  padding-left:10%;
+  padding-right:10%;
+}
+
+.contextext {
+  padding-left:10%;
+  padding-right:10%;
+} 
+
 }
 .contextext {
   margin-top:4rem;
-  padding-left:2rem;
-  padding-right:2rem;
 }
 
+.contextext p {
+  text-align: center;
+}
 
 .homemobile {
 object-fit:contain ;
