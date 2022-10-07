@@ -248,6 +248,10 @@ border-bottom:0;
   color:white
 }
 
+#homemainmenu a:hover {
+  color:rgb(174, 87, 245);
+}
+
 
 /* Proyectos */
 .proyecto-instance{
