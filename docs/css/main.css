@@ -37,6 +37,7 @@ p {
 }
 .contextext {
   margin-top:4rem;
+  margin-bottom:4rem;
 }
 
 .contextext p {
@@ -192,6 +193,17 @@ a:hover{
 }
 
 @media (min-width:992px) {
+
+  #homemainmenu {
+    background-color: transparent;
+    border-bottom:0;
+    }
+    
+    #homemainmenu a {
+      color:white
+    }
+
+    
   .mainmenu {
   padding: 0.5rem 6rem 0.5rem 6rem;
   }
@@ -239,14 +251,6 @@ a:hover{
   color:rgb(174, 87, 245);
 }
 
-#homemainmenu {
-background-color: transparent;
-border-bottom:0;
-}
-
-#homemainmenu a {
-  color:white
-}
 
 #homemainmenu a:hover {
   color:rgb(174, 87, 245);
@@ -488,3 +492,23 @@ color:#1f1d1d;
   .video-container { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; }
 
 .video-container iframe, .video-container object, .video-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+.aligned{
+  margin: 0 auto;
+}
+
+.mySwiper2 {
+  width:850px;
+  text-align: center;
+}
+
+.mySwiper .swiper-slide {
+
+  width:200px;
+
+
+}
+
+.mySwiper img {
+  max-height: 200px;
+}
