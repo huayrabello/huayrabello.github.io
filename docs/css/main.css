@@ -620,16 +620,16 @@ a:hover {
   max-height: 200px;
 }
 
-.backlink {
+a.backlink {
   bottom:10%;
   right:10%;
 }
 
-.backlink:visited{
-  color:white;
+a.backlink:visited{
+  color:white !important;
 }
 
-.backlink:hover{
+a.backlink:hover{
   text-decoration: none;
   color: rgb(174, 87, 245);
 }
