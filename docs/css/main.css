@@ -634,3 +634,7 @@ a.backlink:hover{
   text-decoration: none;
   color: rgb(174, 87, 245);
 }
+
+.muujvideo {
+ visibility:hidden;
+}
