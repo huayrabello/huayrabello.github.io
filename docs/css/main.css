@@ -1,4 +1,17 @@
 /* FUENTES */ 
+.testi{
+  width:355px;
+}
+
+.testi2{
+  width:400px;
+
+}
+
+.tt{
+  width: 755px;
+}
+
 @font-face {
   font-family: "Inter";
   src: url("fonts/Inter/Inter-Regular.ttf");

@@ -14,9 +14,36 @@
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/main.js"></script>
-    <link rel="stylesheet" href="css/swiper-bundle.min.css" type="text/css">
-    <script src="js/swiper-bundle.min.js"></script>
-    <script src="js/swiperproyectos.js"></script>
+    <script src="js/jquery.min.js"></script>
+
+    <script>
+
+        const imageSwapSpeed = 2 // segundos
+        let flag = 1;
+
+        window.addEventListener("load", (e) => {
+            const divimgs = [document.getElementById("swapimg1"), document.getElementById("swapimg2")];
+
+
+            setInterval(() => {
+                if (divimgs[0].style.display == "none") {
+                    divimgs[1].style.display = "none";
+                    divimgs[0].style.display = "block";
+
+                }
+                else {
+                    divimgs[0].style.display = "none";
+                    divimgs[1].style.display = "block";
+                }
+
+
+            }, imageSwapSpeed * 1000)
+        })
+
+
+
+    </script>
+
 
     <style>
         @media (max-width:600px) {
@@ -103,29 +130,22 @@
             </div>
         </div>
 
-        <div class="row gx-2 align-items-center justify-content-center gy-2">
-            <div class="col-12 col-xl-4">
-                <img src="images/fotos/proyectos/muujquiin/hb1.jpg" class="w-100" />
-            </div>
-            <div class="col-12 col-xl-8">
-                <div class="row row-cols-2 gx-2 gy-2">
-                    <div>
-                        <img src="images/fotos/proyectos/muujquiin/hb2.jpg" class="w-100" />
-                    </div>
-                    <div>
-                        <img src="images/fotos/proyectos/muujquiin/hb3.jpg" class="w-100" />
-                    </div>
-                    <div>
 
-                        <img src="images/fotos/proyectos/muujquiin/hb4.jpg" class="w-100" />
-                    </div>
-                    <div>
+        <div class="d-flex tt flex-column flex-xl-row">
 
-                        <img src="images/fotos/proyectos/muujquiin/hb5.jpg" class="w-100" />
-                    </div>
-                </div>
+            <img src=" images/fotos/proyectos/muujquiin/hb1.jpg" class="testi" />
+            <div>
+                <img src="images/fotos/proyectos/muujquiin/hb2.jpg" class="testi2" />
+                <img src="images/fotos/proyectos/muujquiin/hb3.jpg" class="testi2" />
             </div>
+            <div>
+
+                <img src="images/fotos/proyectos/muujquiin/hb4.jpg" class="testi2" />
+                <img src="images/fotos/proyectos/muujquiin/hb5.jpg" class="testi2" />
+            </div>
+
         </div>
+
 
         <div class="content">
             <div class="col-12 pt-md-1 contextext pb-4">
@@ -248,12 +268,12 @@
 
         <div class="row align-content-center align-items-center justify-content-center mt-5">
             <div class="col-12 col-xl-4 gx-2 gy-2">
-                <div>
+                <div id="swapimg1">
                     <img src="images/fotos/proyectos/muujquiin/hb17.jpg" class="w-100" />
                 </div>
-                <!-- <div>
+                <div id="swapimg2" style="display:none;">
                     <img src="images/fotos/proyectos/muujquiin/hb18.jpg" class="w-100" />
-                </div> -->
+                </div>
             </div>
             <div class="col-12 col-xl-3 pt-md-1">
                 <div class="contextext">
