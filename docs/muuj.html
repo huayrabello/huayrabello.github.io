@@ -15,34 +15,8 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/jquery.min.js"></script>
-
-    <script>
-
-        const imageSwapSpeed = 2 // segundos
-        let flag = 1;
-
-        window.addEventListener("load", (e) => {
-            const divimgs = [document.getElementById("swapimg1"), document.getElementById("swapimg2")];
-
-
-            setInterval(() => {
-                if (divimgs[0].style.display == "none") {
-                    divimgs[1].style.display = "none";
-                    divimgs[0].style.display = "block";
-
-                }
-                else {
-                    divimgs[0].style.display = "none";
-                    divimgs[1].style.display = "block";
-                }
-
-
-            }, imageSwapSpeed * 1000)
-        })
-
-
-
-    </script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/muuj.js"></script>
 
 
     <style>
@@ -59,15 +33,27 @@
                 padding-bottom: 0;
             }
         }
+
+
+        .slick_slider .slide img {
+            height: 100px;
+            display: block;
+            object-fit: contain;
+        }
+
+        #slidermainimage {
+            max-height: 560px;
+        }
     </style>
 
 </head>
 
 <body>
-    <div class="container-fluid p-0 m-0">
+    <div class="container-fluid p-0 m-0 position-relative">
 
-        <nav class="mainmenu text-white d-flex flex-column flex-lg-row g-0 fixed-top" id="homemainmenu">
-            <div class="mm-header pt-1">
+        <nav class="mainmenu text-white d-flex flex-column flex-lg-row g-0 position-absolute" style="width:100%"
+            id="homemainmenu">
+            <div class="mm-header pt-1 ">
                 <a class="navbar-brand d-inline" href="index.html">Huayra Bello</a>
                 <a href="#" class="d-inline float-end pe-2 d-lg-none d-none" id="closemenu"><i
                         class="bi bi-x-lg fs-1"></i></a>
@@ -106,7 +92,7 @@
 
         </nav>
 
-        <img src="images/fotos/proyectos/muujquiin/portada.jpg" class="img-fluid d-none d-md-block" />
+        <img src="images/fotos/proyectos/muujquiin/portada.jpg" class="img-fluid d-none d-md-block strechimg" />
         <img src="images/fotos/proyectos/muujquiin/portada-1.jpg" class="img-fluid d-md-none" />
     </div>
 
@@ -203,67 +189,49 @@
             </div>
         </div>
 
-
-
-        <img src="images/fotos/proyectos/muujquiin/hb10.jpg" class="img-fluid  mt-5" />
-
-        <!-- <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <img src="images/fotos/proyectos/muujquiin/hb10.jpg" class="img-fluid" />
-                </div>
-                 <div class="swiper-slide">
-                    <img src="images/fotos/proyectos/muujquiin/hb11.jpg" class="img-fluid" />
-                </div> 
-                <div class="swiper-slide">
-                    <img src="images/fotos/proyectos/muujquiin/hb12.jpg" class="img-fluid" />
-                </div>
-                <div class="swiper-slide">
-                    <img src="images/fotos/proyectos/muujquiin/hb13.jpg" class="img-fluid" />
-                </div>
-                <div class="swiper-slide">
-                    <img src="images/fotos/proyectos/muujquiin/hb14.jpg" class="img-fluid" />
-                </div>
-                 <div class="swiper-slide">
-                    <img src="images/fotos/proyectos/muujquiin/hb15.jpg" class="img-fluid" />
-                </div> 
-                <div class="swiper-slide">
-                    <img src="images/fotos/proyectos/muujquiin/hb16.jpg" class="img-fluid" />
-                </div>
+        <div class="row align-items-center">
+            <div class="col-2">
+                <a id="slider_prev" class="d-block text-end"><i class="bi bi-chevron-left"></i></a>
             </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-        </div> -->
+            <div class="col-8">
+                <img src="images/fotos/proyectos/muujquiin/hb10.jpg" class="img-fluid" id="slidermainimage" />
+            </div>
+            <div class="col-2">
+                <a id="slider_next" class="d-block text-start"><i class="bi bi-chevron-right"></i></a>
+            </div>
+
+        </div>
 
 
+        <div class="content mt-3 mb-5 pb-5 d-none d-lg-block">
+            <div class="slick_slider p-0 m-0">
+                <div class="inner_slider" id="full_slider">
+                    <div class="slide">
+                        <img src="images/fotos/proyectos/muujquiin/hb10.jpg" />
+                    </div>
+                    <div class="slide">
+                        <img src="images/fotos/proyectos/muujquiin/hb11.jpg" />
+                    </div>
+                    <div class="slide">
+                        <img src="images/fotos/proyectos/muujquiin/hb12.jpg" />
+                    </div>
+                    <div class="slide">
+                        <img src="images/fotos/proyectos/muujquiin/hb13.jpg" />
+                    </div>
+                    <div class="slide">
+                        <img src="images/fotos/proyectos/muujquiin/hb14.jpg" />
+                    </div>
+                    <div class="slide">
+                        <img src="images/fotos/proyectos/muujquiin/hb15.jpg" />
+                    </div>
+                    <div class="slide">
+                        <img src="images/fotos/proyectos/muujquiin/hb16.jpg" />
+                    </div>
 
-        <!-- <div thumbsSlider="" class="swiper mySwiper mt-2">
-            <div class="swiper-wrapper" id="sliderthumbs">
-                <div class="swiper-slide">
-                    <img src="images/fotos/proyectos/muujquiin/hb10.jpg" class="img-fluid" />
-                </div>
-                 <div class="swiper-slide">
-                    <img src="images/fotos/proyectos/muujquiin/hb11.jpg" class="img-fluid" />
-                </div>
-                <div class="swiper-slide">
-                    <img src="images/fotos/proyectos/muujquiin/hb12.jpg" class="img-fluid" />
-                </div>
-                <div class="swiper-slide">
-                    <img src="images/fotos/proyectos/muujquiin/hb13.jpg" class="img-fluid" />
-                </div>
-                <div class="swiper-slide">
-                    <img src="images/fotos/proyectos/muujquiin/hb14.jpg" class="img-fluid" />
-                </div>
-               <div class="swiper-slide">
-                    <img src="images/fotos/proyectos/muujquiin/hb15.jpg" class="img-fluid" />
-                </div> 
-                <div class="swiper-slide">
-                    <img src="images/fotos/proyectos/muujquiin/hb16.jpg" class="img-fluid" />
                 </div>
 
             </div>
-        </div> -->
-
+        </div>
 
 
         <div class="row align-content-center align-items-center justify-content-center mt-5">
@@ -276,7 +244,7 @@
                 </div>
             </div>
             <div class="col-12 col-xl-3 pt-md-1">
-                <div class="contextext">
+                <div class="contextext pe-5 pb-5">
                     <p><i>“El tejido es de los antepasados, de los abuelos. Antes los abuelos pensaron: ¿Con qué traje
                             vamos a vestir?, ellos pensaron en un árbol, para no perder el árbol. El árbol tiene la
                             rama, el mismo palo es la herramienta. Antes lo abuelos contaban que el árbol tiene que
@@ -298,7 +266,15 @@
                 <img src="images/fotos/proyectos/muujquiin/hb21.jpg" class="w-100" />
             </div>
         </div>
-        <img src="images/fotos/proyectos/muujquiin/hb22.jpg" class="img-fluid mt-5" />
+    </div>
+
+    <div class="container-fluid mt-5 ps-0 pe-0">
+        <div style="position:relative;height: 100%;">
+            <img src="images/fotos/proyectos/muujquiin/hb22.jpg" class="img-fluid strechimg" />
+            <a href="#" class="position-absolute d-block" style="bottom:2rem;right:2rem;color:white">VOLVER AL
+                INICIO</a>
+        </div>
+
 
         <div class="contact_bottom text-center fixed-bottom d-none d-md-block">
             <span> Huayra Bello </span>
@@ -318,16 +294,18 @@
             </a>
         </div>
 
-        <div class="loadingspinner">
-            <div class="d-flex flex-column h-100 align-items-center justify-content-center">
-                <div class="spinner-border text-white " role="status">
-                </div>
-                <div class="text-white text-center pt-2">Cargando ...</div>
-            </div>
+    </div>
 
+    <div class="loadingspinner">
+        <div class="d-flex flex-column h-100 align-items-center justify-content-center">
+            <div class="spinner-border text-white " role="status">
+            </div>
+            <div class="text-white text-center pt-2">Cargando ...</div>
         </div>
 
     </div>
+
+
 
 
 </body>
