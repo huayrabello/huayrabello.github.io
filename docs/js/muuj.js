@@ -52,6 +52,16 @@ window.addEventListener("DOMContentLoaded", (e) => {
 
     })
 
+    const elem = document.getElementById("muujvideo");
+
+    elem.addEventListener("canplaythrough", () => {
+        if (elem.style.visibility == "hidden") {
+            elem.style.visibility = "visible"
+            elem.play();
+        }
+
+    })
+
 })
 
 window.addEventListener("load", (e) => {
