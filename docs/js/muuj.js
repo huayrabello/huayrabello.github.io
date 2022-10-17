@@ -56,11 +56,17 @@ window.addEventListener("DOMContentLoaded", (e) => {
     const spinner = document.querySelector(".videospinner");
 
     video.addEventListener("waiting", () => {
-        if (spinner.classList.contains("d-none")) spinner.classList.add("d-block")
+        if (spinner.classList.contains("invisible")) {
+            spinner.classList.remove("invisible")
+            spinner.classList.add("visible")
+        }
     })
 
     video.addEventListener("playing", () => {
-        if (spinner.classList.contains("d-block")) spinner.classList.add("d-none")
+        if (spinner.classList.contains("visible")) {
+            spinner.classList.remove("visible")
+            spinner.classList.add("invisible")
+        }
     })
 
 })
