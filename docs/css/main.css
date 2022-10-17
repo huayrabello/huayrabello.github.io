@@ -599,7 +599,7 @@ background-color: transparent;
 .fila {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
 }
 
 .columna1 {
