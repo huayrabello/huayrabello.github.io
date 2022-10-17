@@ -623,6 +623,7 @@ a:hover {
 a.backlink {
   bottom:10%;
   right:10%;
+  color:white;
 }
 
 a.backlink:visited{
