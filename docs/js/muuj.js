@@ -52,14 +52,11 @@ window.addEventListener("DOMContentLoaded", (e) => {
 
     })
 
-    const elem = document.getElementById("muujvideo");
+    const video = document.getElementById("muujvideo");
+    const spinner = document.querySelector(".videospinner");
 
-    elem.addEventListener("canplaythrough", () => {
-        if (elem.style.visibility == "hidden") {
-            elem.style.visibility = "visible"
-            elem.play();
-        }
-
+    video.addEventListener("canplay", () => {
+        if (spinner.classList.contains("d-block")) spinner.classList.add("d-none")
     })
 
 })
