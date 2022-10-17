@@ -55,7 +55,11 @@ window.addEventListener("DOMContentLoaded", (e) => {
     const video = document.getElementById("muujvideo");
     const spinner = document.querySelector(".videospinner");
 
-    video.addEventListener("canplay", () => {
+    video.addEventListener("waiting", () => {
+        if (spinner.classList.contains("d-none")) spinner.classList.add("d-block")
+    })
+
+    video.addEventListener("playing", () => {
         if (spinner.classList.contains("d-block")) spinner.classList.add("d-none")
     })
 
