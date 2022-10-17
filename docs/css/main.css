@@ -1,16 +1,55 @@
+/* test */
+.fila {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.columna1 {
+  flex: 30.74%;
+  max-width: 30.74%;
+}
+
+.columna2 {
+  flex: 34.63%;
+  max-width: 34.63%;
+}
+
+.columna2 img {
+  padding: 0 0 2px 2px;
+}
+
+.columna img {
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+
+@media screen and (max-width: 992px) {
+
+  .columna1 {
+    flex: 47.04%;;
+    max-width:  47.04%;;
+  }
+
+  .columna2 {
+    flex: 52.95%;
+    max-width: 52.95%;
+  }
+  
+
+  .columna1 img { margin-bottom:2px}
+
+  .columna3 {
+    flex: 100%;
+    max-width: 100%;
+
+  }
+}
+
+
 /* FUENTES */
-.testi {
-  width: 355px;
-}
-
-.testi2 {
-  width: 400px;
-
-}
-
-.tt {
-  width: 755px;
-}
 
 @font-face {
   font-family: "Inter";
@@ -579,4 +618,18 @@ a:hover {
 
 .mySwiper img {
   max-height: 200px;
+}
+
+.backlink {
+  bottom:10%;
+  right:10%;
+}
+
+.backlink:visited{
+  color:white;
+}
+
+.backlink:hover{
+  text-decoration: none;
+  color: rgb(174, 87, 245);
 }
