@@ -8,11 +8,11 @@ function addHorizontalSlider(id, mediaQuery) {
             speed: 1000,
             slidesToShow: 5,
             slidesToScroll: 5,
-            centerMode: false,
+            centerMode: true,
             variableWidth: true,
             appendArrows: false,
             appendDots: false,
-            draggable: true,
+            draggable: false,
             swipeToSlide: false,
             responsive: false
         });
@@ -23,13 +23,17 @@ function addHorizontalSlider(id, mediaQuery) {
 
         prev.addEventListener("click", (e) => {
             $(id).slick('slickPrev');
-            $("#slidermainimage").attr("src", $(".slick-current img").attr("src"))
+            //$("#slidermainimage").attr("src", $(".slick-current img").attr("src"))
         })
 
         next.addEventListener("click", (e) => {
             $(id).slick('slickNext');
-            $("#slidermainimage").attr("src", $(".slick-current img").attr("src"))
+            //$("#slidermainimage").attr("src", $(".slick-current img").attr("src"))
         })
+
+        $(id).on('beforeChange', function (event, slick, currentSlide, nextSlide) {
+            $("#slidermainimage").attr("src", $(slick.$slides[currentSlide]).children()[0].src)
+        });
     } else {
         try {
             $(id).slick('unslick');
