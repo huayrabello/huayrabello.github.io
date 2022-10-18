@@ -411,7 +411,7 @@ a:hover {
 #slider_next,
 #slider_prev {
   font-size: 2.5rem;
-
+  cursor:pointer;
 }
 
 
